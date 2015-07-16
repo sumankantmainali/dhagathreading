@@ -2,17 +2,12 @@
 
 /**
  * @ngdoc function
- * @name dhagaThreadingApp.controller:AboutCtrl
+ * @name dhagaThreadingApp.controller:MainCtrl
  * @description
- * # AboutCtrl
+ * # MainCtrl
  * Controller of the dhagaThreadingApp
  */
 angular.module('dhagaThreadingApp')
-  .controller('AboutCtrl', function ($scope) {
-   
-
-
-
-
-   
+  .controller('contactCtrl', function ($scope) {
+    
   });
