@@ -1,0 +1,42 @@
+
+
+.imageholder {
+    height:550px;
+    width:550px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px auto;
+    border: #d2d3db solid 7px;
+  /* width and height can be anything, as long as they're equal */
+}
+
+.imageDiv{
+    height:550px;
+    width:550px;
+    margin-left: -253px;
+    margin-top: -25px;
+    position: relative;
+}
+.dhagaImages{
+    height:100%;
+    width: 100%;
+}
+.productInfoDiv{
+    color:white;
+      height:500px;
+    width:450px;
+    margin-left: 450px;
+    margin-top: -395px;
+    position: absolute;
+}
+
+.imageholder:hover {
+  border-color:white ;
+  box-shadow: -10px -10px 0 #98004a;
+  transform: translate(10px, 10px);
+}
+
+  body{
+  background-image: url("/images/mainBackground.jpg");
+}
+

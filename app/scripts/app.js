@@ -23,8 +23,8 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/services', {
-        templateUrl: 'views/services.html',
+      .when('/service', {
+        templateUrl: 'views/service.html',
         controller: 'servicesCtrl'
       })
       .when('/price', {
@@ -43,3 +43,19 @@ angular
         redirectTo: '/'
       });
   });
+
+  /*  creating service and giving name as GuitarService*/
+angular.module('dhagaThreadingApp').service('DhagaService',function($http){
+/* in main.js controller inds stores valur of indexN, (parameter passed in buy button)  */
+this.inds='';
+/*  creating a service to get jason data*/
+
+            return{
+                getdat : function(tempdat){
+                    return $http.get('/scripts/data.json').success(function(resp){
+
+                        tempdat=resp;
+                    });
+                }
+            };
+      });

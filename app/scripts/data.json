@@ -1,0 +1,36 @@
+{
+    "allProducts": [
+        {
+            "imagePath": "images/1.jpg",
+            "productDescription": " Welcome to Dhaga Threading !!!"
+        },
+        {
+            "imagePath": "images/2.jpg",
+            "productDescription": "some details of 2 pic"
+        },
+        {
+            "imagePath": "images/3.jpg",
+            "productDescription": "some details of 3 pic"
+        },
+        {
+            "imagePath": "images/4.jpg",
+            "productDescription": "some details of 4 pic"
+        },
+        {
+            "imagePath": "images/5.jpg",
+            "productDescription": "some details of 5 pic"
+        },
+        {
+            "imagePath": "images/6.jpg",
+            "productDescription": "some details of 6 pic"
+        },
+        {
+            "imagePath": "images/7.jpg",
+            "productDescription": "some details of 7 pic"
+        },
+        {
+            "imagePath": "images/8.jpg",
+            "productDescription": "some details of 8 pic"
+        }
+    ]
+}
