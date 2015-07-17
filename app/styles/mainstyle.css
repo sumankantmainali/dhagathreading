@@ -22,21 +22,29 @@
     width: 100%;
 }
 .productInfoDiv{
-    color:white;
       height:500px;
     width:450px;
     margin-left: 450px;
-    margin-top: -395px;
+    margin-top: -555px;
     position: absolute;
+     overflow: scroll;
+     padding:10px 10px 10px;
 }
+
 
 .imageholder:hover {
   border-color:white ;
   box-shadow: -10px -10px 0 #98004a;
-  transform: translate(10px, 10px);
 }
-
+/*
   body{
   background-image: url("/images/mainBackground.jpg");
+}
+*/
+.collapse>ul>li:hover {
+  background-color: #47023a;
+  border-radius: 40px;
+box-shadow: -10px -10px 0 #98004a;
+
 }
 

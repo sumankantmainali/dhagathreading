@@ -15,6 +15,9 @@
     'AngularJS',
     'Karma'
     ];
+    $('.carousel').carousel({
+  interval: 2000
+})
 
 $scope.contactdiv=true;
 
