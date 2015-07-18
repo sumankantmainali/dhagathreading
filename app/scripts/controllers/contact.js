@@ -9,5 +9,5 @@
  */
 angular.module('dhagaThreadingApp')
   .controller('contactCtrl', function ($scope) {
-    
+
   });
