@@ -19,6 +19,10 @@
   interval: 2000
 })
 
+
+    $scope.x="test"
+
+
 $scope.contactdiv=true;
 
     /* storing value in response from json call in service- GuitarService*/
