@@ -29,6 +29,7 @@ $scope.contactdiv=true;
        });
 
 //user can click on image for next slide (picture)
+
     $scope.ind=0;
 
     $scope.nxt=function(){
@@ -42,7 +43,7 @@ $scope.contactdiv=true;
 
 
  };
-
+/*
 
 
 $scope.prev=function(){
@@ -58,6 +59,32 @@ $scope.ind--;
 
     };
 
-
+*/
 
 });
+
+
+/*
+function imgChange() {
+
+    setInterval(nextImage, 2000);
+}
+
+var xx = 1;
+
+var imgsList=["images/1.jpg", "images/2.jpg","images/3.jpg","images/4.jpg","images/5.jpg","images/6.jpg","images/7.jpg", "images/8.jpg"]
+function nextImage() {
+
+    if (xx > 0 && xx <= 8) {
+        document.getElementById('setIntBox').innerHTML = '<img src='
+                + imgsList[xx] + ' >';
+        xx = xx + 1;
+    }
+    if (xx > imgsList.length) {
+        xx = 0;
+        document.getElementById('setIntBox').innerHTML = '<img src='
+                + imgsList[xx] + ' >';
+        xx = xx + 1;
+    }
+}
+*/

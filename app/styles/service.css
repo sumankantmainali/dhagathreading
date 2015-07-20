@@ -51,6 +51,26 @@ section.module.parallax-4 {
   background-image: url("/images/8.jpg");
 }
 
+.note {
+  position: relative;
+  width: 45%;
+  padding: 1em 1.5em;
+  color: #fff;
+  background: #47023a;
+   border-radius: 40px;
+}
+.note:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 46px 46px 0;
+  border-style: solid;
+  border-color: #658E15 #fff;
+}
+
+
+
 /*
 @media all and (min-width: 600px) {
   section.module h2 {
@@ -71,3 +91,115 @@ section.module.parallax-4 {
 
 */
 
+
+
+    #container00 {
+    height: 500px;
+    width: 800px;
+    overflow: hidden;
+    margin: 25px auto;
+}
+
+#box {
+    background: ;
+    height: 500px;
+    width: 500px;
+    margin: 10px -400px;
+    -webkit-animation-name: move;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: right;
+    -webkit-animation-timing-function: linear;
+}
+
+#box:hover {
+    -webkit-animation-play-state: paused;
+}
+
+@-webkit-keyframes move {
+    0% {
+        margin-left: -400px;
+    }
+    100% {
+        margin-left: 800px;
+    }
+}
+
+
+
+#container00 {
+    height: 500px;
+    width: 800px;
+    overflow: hidden;
+    margin: 25px auto;
+}
+
+#box {
+    background: ;
+    height: 500px;
+    width: 500px;
+    margin: 10px -400px;
+    -webkit-animation-name: move;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: right;
+    -webkit-animation-timing-function: linear;
+}
+
+#box:hover {
+    -webkit-animation-play-state: paused;
+}
+
+@-webkit-keyframes move {
+    0% {
+        margin-left: -400px;
+    }
+    100% {
+        margin-left: 800px;
+    }
+}
+
+
+
+#container11
+{
+    width: 800px;
+    height: 100px;
+    padding: 10px;
+    overflow-x: hidden;
+    background: green;
+}
+
+#container11 > div
+{
+    width: 500px;
+    height: 100px;
+    white-space: nowrap;
+    animation: slide infinite 3s alternate;
+}
+
+#container11:hover > div
+{
+    animation-play-state: paused;
+}
+
+#container11 > div > div
+{
+    display: inline-block;
+    width: 90px;
+    height: 100px;
+    margin-right: 10px;
+    background: #dddddd;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0px;
+  }
+  50% {
+    margin-left: -100px;
+  }
+  100% {
+    margin-left: -200px;
+  }
+}
