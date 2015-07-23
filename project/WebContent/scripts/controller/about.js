@@ -8,9 +8,19 @@
  * Controller of the dhagaThreadingApp
  */
 angular.module('dhagaThreadingApp')
-  .controller('AboutCtrl', function ($scope) {
+
+  .controller('aboutCtrl', function ($scope) {
+
+  		$scope.moreInfo =  false;
+
+  		
+
+  		$scope.viewInfo = function(){
+
+  				$scope.moreInfo = !$scope.moreInfo;
 
 
+  		}
 
 
 
