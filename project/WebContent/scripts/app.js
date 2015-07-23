@@ -50,7 +50,7 @@ this.inds='';
 
             return{
                 getdat : function(tempdat){
-                    return $http.get('/scripts/data.json').success(function(resp){
+                    return $http.get('../webcontent/scripts/data.json').success(function(resp){
 
                         tempdat=resp;
                     });
