@@ -1,46 +1,42 @@
 
-
-.imageholder {
-    height:550px;
-    width:550px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 10px auto;
-    border: #d2d3db solid 7px;
-  /* width and height can be anything, as long as they're equal */
-}
-
 .imageDiv{
-    height:600px;
-    width:550px;
-    margin-left: -30px;
-    margin-top: 50px;
-    position: relative;
+    height:700px;
 }
-.dhagaImages{
-    height:100%;
-    width: 100%;
-}
-.productInfoDiv{
-      height:500px;
-    width:450px;
-    margin-left: 635px;
-    margin-top: -555px;
-    position: absolute;
-     overflow: scroll;
-     padding:10px 10px 10px;
+
+.imageholder{
+  height:600px;
+  width:cover;
+  margin-top:-18px;
 }
 
 
 .imageholder:hover {
   border-color:white ;
-  box-shadow: -10px -10px 0 #98004a;
+  box-shadow: -10px -10px  #98004a;
 }
+
+
+
+/*
+
+.productInfoDiv{
+      height:500px;
+    width:450px;
+    margin-left: 635px;
+    margin-top: -600px;
+    position: absolute;
+     overflow: scroll;
+     padding:10px 10px 10px;
+}
+
+*/
+
 /*
   body{
   background-image: url("/images/mainBackground.jpg");
 }
 */
+
 .collapse>ul>li:hover {
   background-color: #47023a;
   border-radius: 40px;
@@ -81,16 +77,16 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
-  background-image: url("/images/logo.jpg");
+  background-image: url("../images/logo.jpg");
 }
 section.module.parallax-2 {
-  background-image: url("/images/a.jpg");
+  background-image: url("../images/a.jpg");
 }
 section.module.parallax-3 {
-  background-image: url("/images/3.jpg");
+  background-image: url("../images/facial.jpg");
 }
 section.module.parallax-4 {
-  background-image: url("/images/8.jpg");
+  background-image: url("../images/henna.jpg");
 }
 
 .note {
@@ -248,4 +244,15 @@ section.module.parallax-4 {
 }
 
 
+
+.scroll-top {
+   position:fixed;
+   bottom:0;
+   right:6%;
+   z-index:100;
+   background: #f2f3f2;
+   font-size:24px;
+   border-top-left-radius:3px;
+   border-top-right-radius:3px;
+}
 

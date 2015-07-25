@@ -1,0 +1,43 @@
+{
+    "allProducts": [
+        {
+            "imagePath": "images/1.jpg",
+            "productDescription": " Full Service Salon for Women & Men",
+            "title": "Welcome To Dhaga Threading"
+        },
+        {
+            "imagePath": "images/2.jpg",
+            "productDescription": "Eyebrow threading is an ancient hair-removal technique, practiced for centuries among the most beautiful women of Asia and the Middle East. It is the best alternative to waxing and tweezing, especially for sensitive skin. Eyebrow threading is a depilation technique which originated in India, although it is also widely practiced in the Middle East. Salons in Western nations offered the service to Middle Eastern clients for decades before European and American women became interested and the popularity of eyebrow threading skyrocketed. The hair removal technique is not just for the eyebrows: threading can be used to remove other facial and body hair as well. Eyebrow threading is a preferred hair removal technique for a number of reasons. Unlike tweezing or plucking, eyebrow threading removes one clean line of hair all at once, making it much quicker and easier to shape the brows. Eyebrow threading also will not harm the skin like wax and some depilatory creams can. If done correctly, the skin should not be red or irritated for more than a few minutes after the eyebrow threading session. Some aestheticians also find it easier to shape eyebrows using this technique than other methods available.",
+            "title": "Threading Is Always Better"
+        },
+        {
+            "imagePath": "images/3.jpg",
+            "productDescription": "A facial is one of the best ways to take care of your skin, especially when it's given by an experienced, knowledgeable esthetician. A facial cleans, exfoliates and nourishes the skin, promoting a clear, well-hydrated complexion, and can help your skin look younger.",
+             "title": "Extra Care With Facial"
+        },
+        {
+            "imagePath": "images/4.jpg",
+            "productDescription": "Waxing is a form of semi-permanent hair removal which removes the hair from the root. New hair will not grow back in the previously waxed area for four to six weeks, although some people will start to see regrowth in only a week due to some of their hair being on a different growth cycle. Almost any area of the body can be waxed, including eyebrows, face, pubic area (called bikini waxing), legs, arms, back, abdomen and feet. There are many types of waxing suitable for removing unwanted hair.Waxing is a form of semi-permanent hair removal which removes the hair from the root. New hair will not grow back in the previously waxed area for four to six weeks, although some people will start to see regrowth in only a week due to some of their hair being on a different growth cycle. Almost any area of the body can be waxed, including eyebrows, face, pubic area (called bikini waxing), legs, arms, back, abdomen and feet. There are many types of waxing suitable for removing unwanted hair.Waxing is a form of semi-permanent hair removal which removes the hair from the root. New hair will not grow back in the previously waxed area for four to six weeks, although some people will start to see regrowth in only a week due to some of their hair being on a different growth cycle. Almost any area of the body can be waxed, including eyebrows, face, pubic area (called bikini waxing), legs, arms, back, abdomen and feet. There are many types of waxing suitable for removing unwanted hair.",
+            "title": "Waxing"
+        },
+
+        {
+            "imagePath": "images/5.jpg",
+            "productDescription": "some details of 5 pic"
+        },
+        {
+            "imagePath": "images/6.jpg",
+            "productDescription": "some details of 6 pic"
+        },
+        {
+            "imagePath": "images/7.jpg",
+            "productDescription": "some details of 7 pic"
+        },
+        {
+            "imagePath": "images/8.jpg",
+            "productDescription": "Henna is a flowering plant. The leaves of the Henna plant contain a natural and very effective coloring pigment: Lawsone. This Orange/Red dye releases as the leaves are crushed. Drying, milling, and sifting the Henna leaves into a fine powder maximizes the pigment release"
+
+
+        }
+    ]
+}

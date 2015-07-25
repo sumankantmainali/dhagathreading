@@ -14,6 +14,7 @@
 
 
 $scope.contactdiv=true;
+$scope.myInterval = 3000;
 
     /* storing value in response from json call in service- GuitarService*/
     DhagaService.getdat().then(function(response){
@@ -39,8 +40,10 @@ $scope.contactdiv=true;
 
 
  };
-/*
 
+
+
+/*
 
 $scope.prev=function(){
 $scope.ind--;

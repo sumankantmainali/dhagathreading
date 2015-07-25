@@ -1,21 +1,46 @@
-'use strict';
 
-/**
- * @ngdoc function
- * @name dhagaThreadingApp.controller:MainCtrl
- * @description
- * # MainCtrl
- * Controller of the dhagaThreadingApp
- */
 
-    angular.module('dhagaThreadingApp')
+ angular.module('dhagaThreadingApp' )
  .controller('servicesCtrl', function ($scope,DhagaService) {
-    $scope.awesomeThings = [
-    'HTML5 Boilerplate',
-    'AngularJS',
-    'Karma',
 
-    ];
+  $scope.myInterval = 3000;
+  $scope.slides = [
+    {
+      image: 'http://lorempixel.com/400/200/'
+    },
+    {
+      image: 'http://lorempixel.com/400/200/food'
+    },
+    {
+      image: 'http://lorempixel.com/400/200/sports'
+    },
+    {
+      image: 'http://lorempixel.com/400/200/people'
+    }
+  ];
+}
 
 
   });
+
+ /*
+
+ angular.module('dhagaThreadingApp', ['ui.bootstrap']);
+function servicesCtrl($scope){
+  $scope.myInterval = 3000;
+  $scope.slides = [
+    {
+      image: 'http://lorempixel.com/400/200/'
+    },
+    {
+      image: 'http://lorempixel.com/400/200/food'
+    },
+    {
+      image: 'http://lorempixel.com/400/200/sports'
+    },
+    {
+      image: 'http://lorempixel.com/400/200/people'
+    }
+  ];
+}
+*/

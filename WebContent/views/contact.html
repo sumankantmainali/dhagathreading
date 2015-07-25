@@ -2,7 +2,7 @@
 
 
 /*  temporary css while wait for seperate sass file */
-     #map {
+#map {
     width: 420px;
     height: 450px;
     -moz-border-radius: 50%;
@@ -14,31 +14,31 @@
     border: #d2d3db solid 7px;
 
 
-    }
+}
 
 
 
-    #contact1 {
-        width: 500;
-        height: 500;
-        margin: 20px auto;
-        
-        float: right;
-    }
+#contact1 {
+    width: 500;
+    height: 500;
+    margin: 20px auto;
 
-    p {  font-size: 25px; }
+    float: right;
+}
 
-    #address1 { float : left;
-        margin-right:  40px;
+p {  font-size: 25px; }
+
+#address1 { float : left;
+    margin-right:  40px;
 
 
-    }
+}
 
-    #form{ margin: 10px; float: left;}
+#form{ margin: 10px; float: left;}
 
-    .controls { float: left; padding-right: 10px; padding-bottom: 20px;}
+.controls { float: left; padding-right: 10px; padding-bottom: 20px;}
 
-    #button { margin:20px; float: left;}
+#button { margin:20px; float: left;}
 
 </style>
 
@@ -46,78 +46,100 @@
 
 
 
-<div class=" container-fluid">
+    <div class=" container-fluid">
 
-    <div id="map">
+        <div id="map">
           <iframe src="http://www.yourmapmaker.com/preview.php?a=2418 S Bristol st  Ana , CA 92704 ,United States&w=420&h=450&n=test&z=14&t=Map" height="490" width="520" scrolling="no" frameborder="0"></iframe>
 
+      </div>
+
+      <div id="contact1">
+
+
+
+        <div class="row">
+
+          <hr>
+
+          <div class="col-sm-9 col-sm-offset-1">
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="col-xs-4">
+                  <input type="text" class="form-control" id="firstName" name="name" placeholder="Your Name">
+              </div>
+              <div class="col-xs-6">
+                  <input type="text" class="form-control" id="organization" name="organization" placeholder="Company or Organization">
+              </div>
+          </div>
+          <div class="row form-group">
+              <div class="col-xs-5">
+                  <input type="text" class="form-control" name="email" placeholder="Email">
+              </div>
+              <div class="col-xs-5">
+                  <input type="text" class="form-control" name="phone" placeholder="Phone">
+              </div>
+          </div>
+          <div class="row form-group">
+              <div class="col-xs-10">
+                <textarea class="form-control" placeholder="Comments"></textarea>
+            </div>
+        </div>
+        <div class="row form-group">
+          <div class="col-xs-10">
+            <a href="mailto:dhagathreading@gmail.com"><button class="btn btn-default pull-right">Contact Us</button></a>
+        </div>
     </div>
 
-    <div id="contact1">
-            
+</div>
 
-            <div id="address1">
+</div><!--/row-->
 
-                <p> Contact </p>
-
-                    <div id="address1"> 2418 S Bristol st </br>
-                                        Santa Ana , CA 92704  </br>
-                                        Phone: (714)- 307-4181 <br>
-                                        Email: dhagathreading@gmail.com
-
-
-
-
-                    </div>
-
-
-
-            </div>
-
-
-
+<!--
 
             <div id="form">
 
                 <p> FeedBack</p>
 
                 <div class="control-group">
-                
+
                  <div class="controls">
                 <input id="textinput" name="textinput" placeholder="Name" class="input-large" required="" type="text">
-    
+
                 </div>
 
                 <div class="controls">
                 <input id="textinput" name="textinput" placeholder="Email" class="input-large" required="" type="text">
-    
+
                 </div>
 
                 <div class="controls">
                 <input id="textinput" name="textinput" placeholder="Message" class="input-large" required="" type="text">
-    
+
                 </div>
 
 
 
-                
+
 
             </div>
 
-          <div id="button"> 
-            
+          <div id="button">
+
                 <button onlick="reset()"> Reset </button>
-                
+
                 <button onlick="submit()"> Submit </button>
 
 
-            </div>  
+            </div>
 
-           
+
 
     </div>
 
-
+-->
 </div>
 
 </div>

@@ -22,7 +22,7 @@ angular
         controller: 'MainCtrl'
       })
       .when('/service', {
-        templateUrl: 'views/services.html',
+        templateUrl: 'views/service.html',
         controller: 'servicesCtrl'
       })
       .when('/price', {
