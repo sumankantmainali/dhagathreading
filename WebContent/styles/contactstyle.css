@@ -1,95 +1,13 @@
-<style type="text/css">
+.map{
+margin-left: 30px;
 
+}
 
-/*  temporary css while wait for seperate sass file */
-     #map {
-    width: 420px;
-    height: 450px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    overflow: hidden;
-    float:left;
-    margin: 10px auto;
-    border: #d2d3db solid 7px;
-
-
-    }
-
-    .container {
-    width: 940px;
-    height: 600px;
-    border: red solid 2px ;
-
-
-
-    }
-
-    #contact {
-        width: 500;
-        height: 500;
-        margin: 20px auto;
-        border: 2px  solid black;
-        float: right;
-    }
-
-    p {  font-size: 25px; }
-
-    #address1 { float : left;
-        margin-right:  40px;
-
-
-    }
-
-    #form{ margin: 10px; float: left;}
-
-    #button { margin:20px; float: left;}
-
-    #address { float: left;}
-</style>
-
-<div>
-
-
-
-<div class="container">
-
-    <div id="map">
-        <script type="text/javascript" src="http://www.webestools.com/google_map_gen.js?lati=33.712913&long=-117.885389&zoom=16&width=420&height=450&mapType=normal&map_btn_normal=yes&map_btn_satelite=yes&map_btn_mixte=yes&map_small=yes&marqueur=yes&info_bulle="></script><br /><a href="http://www.webestools.com/google-maps-code-generator-insert-map-on-website-javascript-free-google-map-script.html"></a>
-
-    </div>
-
-    <div id="contact">
-            <p> Contact </p>
-
-            <div id="address">
-
-                    <div id="address1"> 2418 S Bristol st </br>
-                                        Santa Ana , CA 92704  </br>
-                                        Phone: (714)- 307-4181 <br>
-                                        Email: dhagathreading@gmail.com
-
-
-
-
-                    </div>
-
-
-
-            </div>
-
-
-
-
-
-
-            <div id="form"> Form  feed back go here </div>
-
-            <div id="button"> button go here</div>
-
-    </div>
-
-
-</div>
-
-</div>
+.infodiv{
+margin-left: 600px;
+margin-top: -525px;
+}
+.icon{
+margin-left: 0px;
+margin-top:0px;
+}

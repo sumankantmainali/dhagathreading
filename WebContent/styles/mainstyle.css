@@ -52,7 +52,12 @@ section.module:last-child {
 section.module p {
   margin-bottom: 40px;
   font-size: 16px;
-  font-weight: 300;
+ font-weight: bold;
+font-family: Verdana, Geneva, sans-serif;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 section.module p:last-child {
   margin-bottom: 0;
@@ -77,7 +82,7 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
-  background-image: url("../images/logo.jpg");
+  background-image: url("../images/1.jpg");
 }
 section.module.parallax-2 {
   background-image: url("../images/a.jpg");
@@ -106,7 +111,6 @@ section.module.parallax-4 {
   border-style: solid;
   border-color: #658E15 #fff;
 }
-
 
 
 /*
@@ -244,7 +248,6 @@ section.module.parallax-4 {
 }
 
 
-
 .scroll-top {
    position:fixed;
    bottom:0;
@@ -256,3 +259,17 @@ section.module.parallax-4 {
    border-top-right-radius:3px;
 }
 
+.scroll-top a:link,.scroll-top a:visited {
+  color:#222;
+}
+
+
+#footer {
+text-align: center;
+   height:80px;
+   width:100%;
+   background:black;
+   font-size: 10pt;
+   color:white;
+   padding-top: 20px;
+}

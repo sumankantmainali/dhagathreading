@@ -1,145 +1,67 @@
-<style type="text/css">
 
 
-/*  temporary css while wait for seperate sass file */
-#map {
-    width: 420px;
-    height: 450px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    overflow: hidden;
-    float:left;
-    margin: 10px auto;
-    border: #d2d3db solid 7px;
+          <div class="row">
+      <div class=" container-fluid">
 
+          <div class="map col-md-6 ">
+            <iframe src="http://www.yourmapmaker.com/preview.php?a=2418 S Bristol st  Ana , CA 92704 ,United States&w=420&h=450&n=test&z=14&t=Map" height="490" width="520" scrolling="no" frameborder="0"></iframe>
 
-}
+        </div>
+
+        <div id="contact1">
 
 
 
-#contact1 {
-    width: 500;
-    height: 500;
-    margin: 20px auto;
-
-    float: right;
-}
-
-p {  font-size: 25px; }
-
-#address1 { float : left;
-    margin-right:  40px;
-
-
-}
-
-#form{ margin: 10px; float: left;}
-
-.controls { float: left; padding-right: 10px; padding-bottom: 20px;}
-
-#button { margin:20px; float: left;}
-
-</style>
-
-<div>
 
 
 
-    <div class=" container-fluid">
+            <div class="col-sm-6  infodiv">
 
-        <div id="map">
-          <iframe src="http://www.yourmapmaker.com/preview.php?a=2418 S Bristol st  Ana , CA 92704 ,United States&w=420&h=450&n=test&z=14&t=Map" height="490" width="520" scrolling="no" frameborder="0"></iframe>
-
+                <div class="row form-group">
+                  <div class="col-md-12">
+                      <h1>Contact Us</h1>
+                  </div>
+                  <div class="col-xs-4">
+                    <input type="text" class="form-control" id="firstName" name="name" placeholder="Your Name">
+                </div>
+                <div class="col-xs-6">
+                    <input type="text" class="form-control" id="organization" name="organization" placeholder="Company or Organization">
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-xs-5">
+                    <input type="email" class="form-control" name="email" placeholder="Email">
+                </div>
+                <div class="col-xs-5">
+                    <input type="number" class="form-control" name="phone" placeholder="Phone">
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-xs-10">
+                  <textarea class="form-control" placeholder="Message"></textarea>
+              </div>
+          </div>
+          <div class="row form-group">
+            <div class="col-xs-10">
+              <a href="mailto:dhagathreading@gmail.com"><button class="btn btn-default pull-right">Contact Us</button></a>
+          </div>
       </div>
 
-      <div id="contact1">
+  </div>
+      <div class="container icon">
+        <div col-md-4></div>
+        <div class="col-sm-12 col-sm-offset-2 text-center">
 
+          <ul class="list-inline center-block">
+            <li><a href="http://facebook.com/bootply"><img src="images/facebook.jpg"></a></li>
+            <li><a href="http://twitter.com/bootply"><img src="images/youtube.jpg"></a></li>
+            <li><a href="http://google.com/+bootply"><img src="images/twiteer.jpg"></a></li>
+            <li><a href="http://pinterest.com/in1"><img src="images/skype.jpg"></a></li>
+          </ul>
 
+        </div><!--/col-->
+          <div col-md-4></div>
+      </div><!--/container-->
+  </div>
+  </div>
 
-        <div class="row">
-
-          <hr>
-
-          <div class="col-sm-9 col-sm-offset-1">
-
-              <div class="row form-group">
-                <div class="col-md-12">
-                    <h1>Contact Us</h1>
-                </div>
-                <div class="col-xs-4">
-                  <input type="text" class="form-control" id="firstName" name="name" placeholder="Your Name">
-              </div>
-              <div class="col-xs-6">
-                  <input type="text" class="form-control" id="organization" name="organization" placeholder="Company or Organization">
-              </div>
-          </div>
-          <div class="row form-group">
-              <div class="col-xs-5">
-                  <input type="text" class="form-control" name="email" placeholder="Email">
-              </div>
-              <div class="col-xs-5">
-                  <input type="text" class="form-control" name="phone" placeholder="Phone">
-              </div>
-          </div>
-          <div class="row form-group">
-              <div class="col-xs-10">
-                <textarea class="form-control" placeholder="Comments"></textarea>
-            </div>
-        </div>
-        <div class="row form-group">
-          <div class="col-xs-10">
-            <a href="mailto:dhagathreading@gmail.com"><button class="btn btn-default pull-right">Contact Us</button></a>
-        </div>
-    </div>
-
-</div>
-
-</div><!--/row-->
-
-<!--
-
-            <div id="form">
-
-                <p> FeedBack</p>
-
-                <div class="control-group">
-
-                 <div class="controls">
-                <input id="textinput" name="textinput" placeholder="Name" class="input-large" required="" type="text">
-
-                </div>
-
-                <div class="controls">
-                <input id="textinput" name="textinput" placeholder="Email" class="input-large" required="" type="text">
-
-                </div>
-
-                <div class="controls">
-                <input id="textinput" name="textinput" placeholder="Message" class="input-large" required="" type="text">
-
-                </div>
-
-
-
-
-
-            </div>
-
-          <div id="button">
-
-                <button onlick="reset()"> Reset </button>
-
-                <button onlick="submit()"> Submit </button>
-
-
-            </div>
-
-
-
-    </div>
-
--->
-</div>
-
-</div>
