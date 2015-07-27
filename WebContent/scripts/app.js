@@ -10,9 +10,10 @@
  */
 angular
   .module('dhagaThreadingApp', [
-
+    
     'ngRoute',
-
+    'ui.bootstrap'
+    
 
   ] )
   .config(function ($routeProvider) {
