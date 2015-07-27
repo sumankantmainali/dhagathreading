@@ -4,21 +4,22 @@
 
 
   <div class="imageDiv  " >
+    <!--
     <div  class="imageholder img-responsive " > <img src="{{picPath}}"  class=" img-responsive morp" ng-click="nxt()" ></div>
-  </div>
 
+-->
 
    <carousel interval="myInterval">
         <slide ng-repeat="slide in slides" active="slide.active">
-          <img ng-src="{{slide.image}}">
+          <img ng-src="{{picPath}}">
           <div class="carousel-caption">
-            <h4>Slide {{$index+1}}</h4>
+
           </div>
         </slide>
       </carousel>
 
 
-
+  </div>
 
 <!--
 

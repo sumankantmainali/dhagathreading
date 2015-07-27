@@ -11,6 +11,20 @@
  angular.module('dhagaThreadingApp' )
  .controller('MainCtrl', function ($scope,DhagaService) {
 
+
+$scope.contactdiv=true;
+
+    /* storing value in response from json call in service- GuitarService*/
+    DhagaService.getdat().then(function(response){
+        $scope.jdata=response.data;
+           // console.log($scope.jdata);
+            $scope.titlechange=$scope.jdata.allProducts[$scope.ind].title;
+           $scope.productchange=$scope.jdata.allProducts[$scope.ind].productDescription;
+           $scope.picPath=$scope.jdata.allProducts[$scope.ind].imagePath;
+       });
+
+//user can click on image for next slide (picture)
+
 $scope.myInterval = 3000;
 
 $scope.slides = [
@@ -27,21 +41,6 @@ $scope.slides = [
       image: 'http://lorempixel.com/400/200/people'
     }
   ];
-
-$scope.contactdiv=true;
-$scope.myInterval = 3000;
-
-    /* storing value in response from json call in service- GuitarService*/
-    DhagaService.getdat().then(function(response){
-        $scope.jdata=response.data;
-           // console.log($scope.jdata);
-            $scope.titlechange=$scope.jdata.allProducts[$scope.ind].title;
-           $scope.productchange=$scope.jdata.allProducts[$scope.ind].productDescription;
-           $scope.picPath=$scope.jdata.allProducts[$scope.ind].imagePath;
-       });
-
-//user can click on image for next slide (picture)
-
     $scope.ind=0;
 
     $scope.nxt=function(){
