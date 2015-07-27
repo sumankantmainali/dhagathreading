@@ -1,20 +1,7 @@
 
 <div class="mainPageContainer">
 <div class="imageDiv">
- <!-- <carousel  interval="myInterval" ><div  class="imageholder img-responsive carousel slide "  id="setIntBox" > <img src="{{picPath}}"  class=" dhagaImages img-responsive" ng-click="nxt()"  onload="imgChange()" ></div> </carousel> -->
-
-     <carousel interval="myInterval">
-        <slide ng-repeat="slide in slides" active="slide.active">
-          <img ng-src="{{slide.image}}">
-          <div class="carousel-caption">
-            <h4>Slide {{$index+1}}</h4>
-          </div>
-        </slide>
-      </carousel>
-
-
-  
-
+<div  class="imageholder img-responsive carousel slide "  id="setIntBox" > <img src="{{picPath}}"  class=" dhagaImages img-responsive" ng-click="nxt()"  onload="imgChange()"></div>
 </div>
 <div class=" note para productInfoDiv">
   <h3> {{titlechange}}</h3>
