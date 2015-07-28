@@ -1,16 +1,17 @@
 
-<div class="row">
+<div class="row" ng-hide="maincontentdiv">
 
   <div class="col-md-3">
 
     <!-- normal -->
-    <div class="ih-item circle effect1"><a href="#">
-        <div class="spinner"></div>
-        <div class="img"><img src="images/henna.jpg" alt="img"></div>
+    <div class="ih-item circle effect1" ng-click="hennaphotos()"><a >
+        <div class="spinner" ng-click="hennaphotos()"></div>
+        <div class="img"><img src="images/henna.jpg" alt="img" ng-click="hennaphotos()"></div>
         <div class="info">
           <div class="info-back">
             <h3>Henna</h3>
-            <p>Description goes here</p>
+            <p>$5 and Up </p>
+             <p>(click here for more details)</p>
           </div>
         </div></a></div>
     <!-- end normal -->
@@ -30,7 +31,8 @@
         <div class="info">
           <div class="info-back">
             <h3>Facial</h3>
-            <p>Description goes here</p>
+            <p>$35 </p>
+             <p>(click here for more details)</p>
           </div>
         </div></a></div>
     <!-- end normal -->
@@ -47,7 +49,8 @@
         <div class="info">
           <div class="info-back">
             <h3>Waxing</h3>
-            <p>Description goes here</p>
+            <p>$15 and up </p>
+               <p>(click here for more details)</p>
           </div>
         </div></a></div>
     <!-- end normal -->
@@ -64,8 +67,9 @@
         <div class="img"><img src="images/7.jpg" alt="img"></div>
         <div class="info">
           <div class="info-back">
-            <h3>Eyebrow</h3>
-            <p>Description goes here</p>
+            <h3>Eyebrow/Threading</h3>
+            <p>$7 and up </p>
+            <p>(click here for more details)</p>
           </div>
         </div></a></div>
     <!-- end normal -->
@@ -75,4 +79,22 @@
 
 </div>
 
+<div class="row" ng-hide="hennagallery">
+  <div class="col-md-3"></div>
+<div class="hennagallery col-md-6">
+<carousel interval="myInterval">
+         <slide ng-repeat="slide in slides" active="slide.active">
+        <img ng-src="{{slide.image}}">
+
+           <div class="carousel-caption">
+
+
+           </div>
+         </slide>
+       </carousel>
+
+<button class="btn btn-success btn-lg " ng-click="backToPricePage()">Back</button>
+</div>
+ <div class="col-md-3"></div>
+</div>
 <br/>

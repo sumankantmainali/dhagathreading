@@ -29,16 +29,34 @@ $scope.myInterval = 3000;
 
 $scope.slides = [
     {
-      image: 'http://lorempixel.com/400/200/'
+      image: 'images/1.jpg'
     },
     {
-      image: 'http://lorempixel.com/400/200/food'
+     image: 'images/2.jpg'
     },
     {
-      image: 'http://lorempixel.com/400/200/sports'
+    image: 'images/3.jpg'
     },
     {
-      image: 'http://lorempixel.com/400/200/people'
+    image: 'images/4.jpg'
+    },
+     {
+    image: 'images/5.jpg'
+    },
+     {
+    image: 'images/6.jpg'
+    },
+     {
+    image: 'images/7.jpg'
+    },
+     {
+    image: 'images/8.jpg'
+    },
+     {
+    image: 'images/9.jpg'
+    },
+     {
+    image: 'images/10.jpg'
     }
   ];
     $scope.ind=0;
@@ -73,6 +91,25 @@ $scope.ind--;
     };
 
 */
+
+        $(document).ready(function() {
+            // Show or hide the sticky footer button
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 200) {
+                    $('.go-top').fadeIn(200);
+                } else {
+                    $('.go-top').fadeOut(200);
+                }
+            });
+
+            // Animate the scroll to top
+            $('.go-top').click(function(event) {
+                event.preventDefault();
+
+                $('html, body').animate({scrollTop: 0}, 300);
+            })
+        });
+
 
 });
 

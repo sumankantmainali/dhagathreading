@@ -1,6 +1,7 @@
 
 .imageDiv{
     height:700px;
+    margin-top:-20px;
 }
 
 .imageholder{
@@ -15,7 +16,10 @@
   box-shadow: -10px -10px  #98004a;
 }
 
-
+.contentdiv{
+  background-image: url("../images/bg1.jpg");
+  color:white;
+}
 
 /*
 
@@ -52,18 +56,19 @@ section.module:last-child {
 section.module p {
   margin-bottom: 40px;
   font-size: 16px;
- font-weight: bold;
+
 font-family: Verdana, Geneva, sans-serif;
 padding-left: 10px;
 padding-right: 10px;
 padding-top: 10px;
 padding-bottom: 10px;
+text-align: justify;
 }
 section.module p:last-child {
   margin-bottom: 0;
 }
 section.module.content {
-  padding: 40px 0;
+  padding: 5px 0;
 }
 section.module.parallax {
   height: 600px;
@@ -82,10 +87,10 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
-  background-image: url("../images/brow.jpg");
+  background-image: url("../images/eyebrow1.jpg");
 }
 section.module.parallax-2 {
-  background-image: url("../images/a.jpg");
+  background-image: url("../images/eyebrow.jpg");
 }
 section.module.parallax-3 {
   background-image: url("../images/facial.jpg");
