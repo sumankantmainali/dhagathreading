@@ -93,8 +93,41 @@
          </slide>
        </carousel>
 
-<button class="btn btn-success btn-lg " ng-click="backToPricePage()">Back</button>
+<button class="btn btn-danger btn-lg " ng-click="backToPricePage()">Back</button>
+
+<button class="btn btn-success btn-lg " ng-click="makeAppointment()">Make Appointment </button>
+
+
 </div>
  <div class="col-md-3"></div>
 </div>
+
+
+<div ng-show="scheduleDay">
+      This is schedule page 
+
+      <timepicker ng-model="mytime" ng-change="changed()" hour-step="hstep" minute-step="mstep" show-meridian="ismeridian"></timepicker>
+
+
+      <div style="display:inline-block; min-height:290px;">
+      <datepicker ng-model="dt" min-date="minDate" show-weeks="true" class="well well-sm" custom-class="getDayClass(date, mode)"></datepicker>
+    </div>
+    
+     
+
+      <pre>Your schedule is on :  {{mytime | date:'shortTime' }} <em>{{dt | date:'fullDate' }}</em></pre>
+
+
+
+    <button class="btn btn-success btn-lg " ng-click="confirm()"> Confirm your schedule  </button>
+  <hr>
+
+  
+  
+  
+
+</div>
+
+
+
 <br/>

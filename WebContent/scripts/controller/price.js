@@ -1,6 +1,6 @@
 
   angular.module('dhagaThreadingApp')
- .controller('priceCtrl', function ($scope,DhagaService) {
+ .controller('priceCtrl', function ($scope,DhagaService,$log) {
 
 
     $scope.maincontentdiv=false;
@@ -54,5 +54,38 @@ $scope.backToPricePage=function(){
     $scope.hennagallery=true;
 
 };
+
+$scope.makeAppointment=function(){
+       
+    $scope.hennagallery=true;
+    $scope.scheduleDay = true;
+
+   
+
+   $scope.mytime = new Date();
+
+  $scope.hstep = 1;
+  $scope.mstep = 15;
+
+  $scope.options = {
+    hstep: [1, 2, 3],
+    mstep: [1, 5, 10, 15, 25, 30]
+  };
+
+  $scope.ismeridian = true;
+  
+
+ 
+
+
+};
+
+
+$scope.confirm=function(){
+        $scope.maincontentdiv=false;
+    $scope.scheduleDay=false;
+
+};
+
 
   });
