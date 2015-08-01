@@ -1,49 +1,290 @@
 
 
-<div class="row">
+<div class="row " ng-hide="servicepicdetails">
 
-<h1>Step In For Our Exclusive Services</h1>
+
 <div class="accordion">
   <ul >
-    <li  >
-      <div> <a href="#">
+
+    <li  class="img-responsive">
+      <div > <a >
         <h2>Facial</h2>
         <p>"A professional treatment will fully cleanse your skin in a way that you simply can't at home,"</p>
         </a> </div>
     </li>
-    <li >
-      <div> <a href="#">
-        <h2>Facial</h2>
-        <p>to take care of your skin</p>
+    <li  class="img-responsive" >
+      <div > <a>
+        <h2>Henna Tattoo</h2>
+        <p>Body Art With Henna Tattoo</p>
         </a> </div>
     </li>
-    <li  >
-      <div> <a href="#">
-        <h2>Eyebrow</h2>
-        <p>Style yourself</p>
+    <li class="img-responsive">
+      <div> <a>
+        <h2>Waxing</h2>
+        <p>Extra Care To Your Skin</p>
         </a> </div>
     </li>
-    <li >
-      <div> <a href="#">
+    <li class="img-responsive">
+      <div> <a href="target blank">
         <h2>Eyebrow</h2>
         <p>We Suggest and Style your Brows</p>
         </a> </div>
     </li>
-    <li >
-      <div> <a href="#">
-        <h2>Waxing</h2>
-        <p>Extra Care To Your Skin </p>
-        </a> </div>
-    </li>
-    <li>
-      <div> <a href="#">
-        <h2>Eyebrow</h2>
-        <p> Style yourself</p>
-        </a> </div>
-    </li>
+
 
   </ul>
 </div>
 
 
 </div>
+
+<div>
+<br/><br/>
+
+  <h1>Step In For Our Exclusive Services </h1>
+
+<br/><br/>
+</div>
+
+
+
+
+<div class="row" ng-hide="maincontentdiv">
+<div class="col-md-2"></div>
+  <div class="col-md-2">
+
+    <!-- normal -->
+    <div class="ih-item circle effect1" ng-click="hennaphotos()"><a >
+        <div class="spinner" ng-click="hennaphotos()"></div>
+        <div class="img"><img src="images/henna.jpg" alt="img" ng-click="hennaphotos()"></div>
+        <div class="info">
+          <div class="info-back">
+            <h3>Henna</h3>
+            <p>$5 and Up </p>
+             <p>(click here for more details)</p>
+          </div>
+        </div></a></div>
+    <!-- end normal -->
+
+</div>
+
+
+
+
+
+  <div class="col-md-2">
+
+    <!-- normal -->
+    <div class="ih-item circle effect1" ng-click="facialphotos()"><a>
+        <div class="spinner"></div>
+        <div class="img"><img src="images/facial.jpg" alt="img"></div>
+        <div class="info">
+          <div class="info-back">
+            <h3>Facial</h3>
+            <p>$35 </p>
+             <p>(click here for more details)</p>
+          </div>
+        </div></a></div>
+    <!-- end normal -->
+
+</div>
+
+
+  <div class="col-md-2">
+
+    <!-- normal -->
+    <div class="ih-item circle effect1" ng-click="waxingphotos()"><a >
+        <div class="spinner"></div>
+        <div class="img"><img src="images/4.jpg" alt="img"></div>
+        <div class="info">
+          <div class="info-back">
+            <h3>Waxing</h3>
+            <p>$15 and up </p>
+               <p>(click here for more details)</p>
+          </div>
+        </div></a></div>
+    <!-- end normal -->
+
+</div>
+
+
+
+  <div class="col-md-2">
+
+    <!-- normal -->
+    <div class="ih-item circle effect1" ng-click="eyebrowphotos()"><a >
+        <div class="spinner"></div>
+        <div class="img"><img src="images/1.jpg" alt="img"></div>
+        <div class="info">
+          <div class="info-back">
+            <h3>Eyebrow/Threading</h3>
+            <p>$7 and up </p>
+            <p>(click here for more details)</p>
+          </div>
+        </div></a></div>
+    <!-- end normal -->
+
+</div>
+<div class="col-md-2"></div>
+
+
+</div>
+
+<div class="row" ng-hide="hennagallery">
+  <div class="col-md-3"></div>
+<div class="hennagallery col-md-6">
+<carousel interval="myInterval">
+         <slide ng-repeat="slide in slides" active="slide.active">
+        <img ng-src="{{slide.image}}">
+
+           <div class="carousel-caption">
+
+
+           </div>
+         </slide>
+       </carousel>
+
+<button class="btn btn-danger btn-lg " ng-click="backToPricePage()">Back</button>
+
+<button class="btn btn-success btn-lg " ng-click="makeAppointment()">Make Appointment </button>
+
+
+</div>
+
+ <div class="col-md-3"></div>
+</div>
+
+
+
+<div class="row" ng-hide="waxinggallery">
+  <div class="col-md-3"></div>
+<div class="hennagallery col-md-6">
+<carousel interval="myInterval">
+         <slide ng-repeat="slide in slides2" active="slide.active">
+        <img ng-src="{{slide.image}}">
+
+           <div class="carousel-caption">
+
+
+           </div>
+         </slide>
+       </carousel>
+
+<button class="btn btn-danger btn-lg " ng-click="backToPricePage()">Back</button>
+
+<button class="btn btn-success btn-lg " ng-click="makeAppointment()">Make Appointment </button>
+
+
+</div>
+
+ <div class="col-md-3"></div>
+</div>
+
+<div class="row" ng-hide="eyebrowgallery">
+  <div class="col-md-3"></div>
+<div class="hennagallery col-md-6">
+<carousel interval="myInterval">
+         <slide ng-repeat="slide in slides3" active="slide.active">
+        <img ng-src="{{slide.image}}">
+
+           <div class="carousel-caption">
+
+
+           </div>
+         </slide>
+       </carousel>
+
+<button class="btn btn-danger btn-lg " ng-click="backToPricePage()">Back</button>
+
+<button class="btn btn-success btn-lg " ng-click="makeAppointment()">Make Appointment </button>
+
+
+</div>
+
+ <div class="col-md-3"></div>
+</div>
+
+
+<div class="row" ng-hide="facialgallery">
+  <div class="col-md-3"></div>
+<div class="hennagallery col-md-6">
+<carousel interval="myInterval">
+         <slide ng-repeat="slide in slides1" active="slide.active">
+        <img ng-src="{{slide.image}}">
+
+           <div class="carousel-caption">
+
+
+           </div>
+         </slide>
+       </carousel>
+
+<button class="btn btn-danger btn-lg " ng-click="backToPricePage()">Back</button>
+
+<button class="btn btn-success btn-lg " ng-click="makeAppointment()">Make Appointment </button>
+
+
+</div>
+
+ <div class="col-md-3"></div>
+</div>
+
+
+<div class="row " >
+<div class="col-md-3"></div>
+<div  ng-show="scheduleDay" class="col-md-6">
+      This is schedule page
+
+      <timepicker ng-model="mytime" ng-change="changed()" hour-step="hstep" minute-step="mstep" show-meridian="ismeridian"></timepicker>
+
+
+      <div style="display:inline-block; min-height:290px;">
+      <datepicker ng-model="dt" min-date="minDate" show-weeks="true" class="well well-sm" custom-class="getDayClass(date, mode)"></datepicker>
+    </div>
+
+    <div class="servicelist">
+
+      <dropdown>
+        Threading
+        <select>
+           <option value="full face">Full Face</option>
+  <option value="Eyebrow">Eyebrow</option>
+  <option value="Upper Lip">Upper Lip</option>
+  <option value="Chin">Chin</option>
+  <option value="Sides">Sides</option>
+</select>
+      </dropdown>
+        <dropdown>
+        Waxing
+        <select>
+           <option value="Full Hand">Full Hand</option>
+  <option value="Under Arm">Under Arms</option>
+  <option value="Legs">Legs</option>
+  <option value="Bikkini">Bikkini</option>
+</select>
+      </dropdown>
+
+    </div>
+  </br>
+      <pre>Your schedule is on :  {{mytime | date:'shortTime' }} <em>{{dt | date:'fullDate' }}</em></pre>
+
+
+
+    <button class="btn btn-success btn-lg " ng-click="confirm()"> Confirm your schedule  </button>
+
+
+
+
+
+
+</div>
+<div class="col-md-3"></div>
+</div>
+
+<br/><br/><br/>
+
+
+
+
+
+

@@ -1,3 +1,8 @@
+.hennagallery{
+  height:500px;
+  width:500px;
+}
+
 h1 {
   text-align: center;
   font-family: Montserrat, sans-serif;
@@ -82,16 +87,16 @@ h1 {
   font-size: 13.5px;
 }
 
-.accordion ul li:nth-child(1) { background-image: url("../images/service1.png"); }
+/*.accordion ul li:nth-child(1) { background-image: url("../images/service1.png"); }*/
 
-.accordion ul li:nth-child(2) { background-image: url("../images/service2.jpg"); }
+.accordion ul li:nth-child(1) { background-image: url("../images/service2.jpg"); }
 
-.accordion ul li:nth-child(3) { background-image: url("../images/service3.jpg"); }
-.accordion ul li:nth-child(4) { background-image: url("../images/service4.png"); }
+.accordion ul li:nth-child(2) { background-image: url("../images/service1.jpg"); }
+/*.accordion ul li:nth-child(4) { background-image: url("../images/service4.png"); } */
 
-.accordion ul li:nth-child(5) { background-image: url("../images/service5.jpg"); }
+.accordion ul li:nth-child(3) { background-image: url("../images/service5.jpg"); }
 
-.accordion ul li:nth-child(6) { background-image: url("../images/service6.png"); }
+.accordion ul li:nth-child(4) { background-image: url("../images/service6.png"); }
 
 
 .accordion ul:hover li { width: 8%; }
@@ -137,5 +142,9 @@ body { margin: 0; }
 }
 
 .about a:hover { text-decoration: underline; }
+
+
+
+
 
 

@@ -118,27 +118,6 @@ section.module.parallax-4 {
 }
 
 
-/*
-@media all and (min-width: 600px) {
-  section.module h2 {
-    font-size: 42px;
-  }
-  section.module p {
-    font-size: 20px;
-  }
-  section.module.parallax h1 {
-    font-size: 96px;
-  }
-}
-@media all and (min-width: 960px) {
-  section.module.parallax h1 {
-    font-size: 100px;
-  }
-}
-
-*/
-
-
 
     #container00 {
     height: 500px;
@@ -277,4 +256,74 @@ text-align: center;
    font-size: 10pt;
    color:white;
    padding-top: 20px;
+}
+
+
+.container-2{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+    margin-right:-59px;
+
+}
+
+.container-2 input#search{
+  width: 0px;
+  height: 35px;
+  background: white;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #262626;
+  padding-left: 35px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: black;
+
+
+  -webkit-transition: width .55s ease;
+  -moz-transition: width .55s ease;
+  -ms-transition: width .55s ease;
+  -o-transition: width .55s ease;
+  transition: width .55s ease;
+}
+
+.container-2 input#search::-webkit-input-placeholder {
+   color: red;
+}
+
+.container-2 input#search:-moz-placeholder { /* Firefox 18- */
+   color: #65737e;
+}
+
+.container-2 input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: #65737e;
+}
+
+.container-2 input#search:-ms-input-placeholder {
+   color: #65737e;
+}
+
+.container-2 .icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: red;
+}
+
+.container-2 input#search:focus, .container-2 input#search:active{
+  outline:none;
+  width: 200px;
+}
+
+.container-2:hover input#search{
+width: 200px;
+}
+
+.container-2:hover .icon{
+  color: #93a2ad;
 }
