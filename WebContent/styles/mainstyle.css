@@ -269,18 +269,18 @@ text-align: center;
 }
 
 .container-2 input#search{
-  width: 0px;
-  height: 35px;
+  width: 80px;
+  height: 33px;
   background: white;
   border: none;
   font-size: 10pt;
   float: left;
   color: #262626;
-  padding-left: 35px;
+  padding-left: 15px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  border-radius: 5px;
-  color: black;
+  border-radius: 2px;
+  color: red;
 
 
   -webkit-transition: width .55s ease;
@@ -291,7 +291,7 @@ text-align: center;
 }
 
 .container-2 input#search::-webkit-input-placeholder {
-   color: red;
+   color: black;
 }
 
 .container-2 input#search:-moz-placeholder { /* Firefox 18- */
@@ -327,3 +327,4 @@ width: 200px;
 .container-2:hover .icon{
   color: #93a2ad;
 }
+
