@@ -17,8 +17,9 @@
 }
 
 .contentdiv{
-  background-image: url("../images/bg1.jpg");
+  /*background-image: url("../images/bg1.jpg");*/
   color:white;
+  background-color: #195c7d;
 }
 
 /*

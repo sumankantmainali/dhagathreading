@@ -145,4 +145,8 @@ body { margin: 0; }
 
 
 
-
+.serviceMainDiv{
+  background-color: #195c7d;
+    color:white;
+    margin-top: -20px;
+}
