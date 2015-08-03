@@ -167,15 +167,63 @@
   };
 
 
+  // $scope.confirm=function(){
+  //         $scope.maincontentdiv=false;
+  //     $scope.scheduleDay=false;
+  //         $scope.servicepicdetails=false;
+  //     $scope.waxinggallery=true;
+  //     $scope.facialgallery=true;
+
+
+  // };
+
   $scope.confirm=function(){
-          $scope.maincontentdiv=false;
-      $scope.scheduleDay=false;
-          $scope.servicepicdetails=false;
-      $scope.waxinggallery=true;
-      $scope.facialgallery=true;
+        
+    $scope.scheduleDay=false;
+    $scope.placeorder = true;
+
+};
 
 
-  };
+$scope.confirm2=function(){
+      
+    $scope.placeorder = false;
+    $scope.maincontentdiv=false;
+};
+
+  
+
+
+  $scope.services = [
+
+    {price: 1, text: 'item 1', checked: false},
+    {price: 2, text: 'item 2',checked : false},
+    {price: 3, text: 'item 3',checked:false},
+    {price: 4, text: 'item 4', checked:false}
+  ];
+
+
+  // $scope.services2 = [
+
+  //   {price: 1, text: 'item 5'},
+  //   {price: 2, text: 'item 6'},
+  //   {price: 3, text: 'item 7'},
+  //   {price: 4, text: 'item 8'}
+  // ];
+    
+ $scope.checkedCount = function(){
+      return $scope.services.filter(function(person){
+        return person.checked;
+      }).length;
+    }
+      
+  
+
+
+
+
+
+
 
 
 

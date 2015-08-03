@@ -247,25 +247,51 @@
 
     <div class="servicelist">
 
-      <dropdown>
-        Threading
-        <select>
-           <option value="full face">Full Face</option>
-  <option value="Eyebrow">Eyebrow</option>
-  <option value="Upper Lip">Upper Lip</option>
-  <option value="Chin">Chin</option>
-  <option value="Sides">Sides</option>
-</select>
-      </dropdown>
-        <dropdown>
-        Waxing
-        <select>
-           <option value="Full Hand">Full Hand</option>
-  <option value="Under Arm">Under Arms</option>
-  <option value="Legs">Legs</option>
-  <option value="Bikkini">Bikkini</option>
-</select>
-      </dropdown>
+      
+            <accordion-group is-open="status.open">
+        <accordion-heading>
+             Service 1 ! <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+        </accordion-heading>
+        <div class="control-group">
+          <label class="control-label" for="checkboxes">Choose your service </label>
+          <div class="controls">
+            <label class="checkbox"  ng-repeat="service in services">
+              <input name="checkboxes"  type="checkbox" ng-model="service.checked">
+              {{service.text}}
+            </label>
+            
+
+           
+
+            
+
+            </div>
+</div>
+</accordion-group>
+
+
+   <accordion-group is-open="status.open">
+        <accordion-heading>
+             Service 2! <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+        </accordion-heading>
+        <div class="control-group">
+          <label class="control-label" for="checkboxes">Choose your service </label>
+          <div class="controls">
+            <label class="checkbox"  ng-repeat="services in services2">
+              <input name="checkboxes"  type="checkbox">
+              {{services.text}}
+            </label>
+            
+
+            </div>
+</div>
+</accordion-group>
+
+        
+
+
+        
+
 
     </div>
   </br>
@@ -273,14 +299,53 @@
 
 
 
-    <button class="btn btn-success btn-lg " ng-click="confirm()"> Confirm your schedule  </button>
+    
+
+
+
+  <div class="col-xs-4">
+                    <input type="text" class="form-control" id="firstName" name="name" placeholder="Your Name">
+       </div>
+
+       <div class="col-xs-5">
+                    <input type="text" class="form-control" name="phone" placeholder="Phone">
+                </div>
 
 
 
 
+       <div class="control-group">
+  <label class="control-label" for="selectbasic">How many person ?</label>
+  <div class="controls">
+    <select id="selectbasic" name="selectbasic" class="input-large">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+    </select>
+  </div>
+</div>
+
+      <p> Estimate Total :  {{checkedCount()}} </p> 
+
+
+      <button class="btn btn-success btn-lg " ng-click="confirm()"> Confirm your order!  </button>
+
+
+    
+
+</div>
+
+<div ng-show="placeorder"> Thank you for your order ! 
+
+<button class="btn btn-success btn-lg " ng-click="confirm2()"> Click here to go back to main page </button>
 
 
 </div>
+
+
 <div class="col-md-3"></div>
 </div>
 
