@@ -1,12 +1,113 @@
-<div class="row serviceMainDiv">
 
-<div class="row " ng-hide="servicepicdetails">
+<div class="row serviceMainDiv" ng-hide="servicepicdetails">
 
 
-<div class="accordion">
+
+  <div class="row">
+
+
+<div class="col-md-2  galleryHolder">
+
+
+
+
+    <!-- normal -->
+    <div class="ih-item circle effect1" ng-click="hennaphotos()"><a >
+        <div class="spinner" ng-click="hennaphotos()"></div>
+        <div class="img"><img src="images/henna.jpg" alt="img" ng-click="hennaphotos()"></div>
+        <div class="info">
+          <div class="info-back">
+            <h3>Henna</h3>
+            <p>$5 and Up </p>
+             <p>(click here for more details)</p>
+          </div>
+        </div></a></div>
+    <!-- end normal -->
+
+
+
+
+
+</div>
+<div class="col-md-2 galleryHolder1">
+
+
+
+      <!-- normal -->
+    <div class="ih-item circle effect1" ng-click="facialphotos()"><a>
+        <div class="spinner"></div>
+        <div class="img"><img src="images/facial.jpg" alt="img"></div>
+        <div class="info">
+          <div class="info-back">
+            <h3>Facial</h3>
+            <p>$35 </p>
+             <p>(click here for more details)</p>
+          </div>
+        </div></a></div>
+    <!-- end normal -->
+
+
+
+</div>
+<div class="col-md-2 galleryHolder2">
+
+      <!-- normal -->
+    <div class="ih-item circle effect1" ng-click="waxingphotos()"><a >
+        <div class="spinner"></div>
+        <div class="img"><img src="images/4.jpg" alt="img"></div>
+        <div class="info">
+          <div class="info-back">
+            <h3>Waxing</h3>
+            <p>$15 and up </p>
+               <p>(click here for more details)</p>
+          </div>
+        </div></a></div>
+    <!-- end normal -->
+
+
+</div>
+<div class="col-md-2 galleryHolder3">
+
+      <!-- normal -->
+    <div class="ih-item circle effect1" ng-click="eyebrowphotos()"><a >
+        <div class="spinner"></div>
+        <div class="img"><img src="images/1.jpg" alt="img"></div>
+        <div class="info">
+          <div class="info-back">
+            <h3>Threading</h3>
+            <p>$7 and up </p>
+            <p>(click here for more details)</p>
+          </div>
+        </div></a>
+      </div>
+    <!-- end normal -->
+</div>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row  servicepicdetails" ng-hide="servicepicdetails" >
+
+
+<div class="accordion servicePicHolder">
   <ul >
 
-    <li  class="img-responsive">
+    <li  class="img-responsive ">
       <div > <a >
         <h2>Facial</h2>
         <p>"A professional treatment will fully cleanse your skin in a way that you simply can't at home,"</p>
@@ -38,97 +139,8 @@
 
 </div>
 
-<div>
-<br/><br/>
-
-  <h1>Step In For Our Exclusive Services </h1>
-
-<br/><br/>
-</div>
 
 
-
-
-<div class="row" ng-hide="maincontentdiv">
-<div class="col-md-1"></div>
-  <div class="col-md-2">
-
-    <!-- normal -->
-    <div class="ih-item circle effect1" ng-click="hennaphotos()"><a >
-        <div class="spinner" ng-click="hennaphotos()"></div>
-        <div class="img"><img src="images/henna.jpg" alt="img" ng-click="hennaphotos()"></div>
-        <div class="info">
-          <div class="info-back">
-            <h3>Henna</h3>
-            <p>$5 and Up </p>
-             <p>(click here for more details)</p>
-          </div>
-        </div></a></div>
-    <!-- end normal -->
-
-</div>
-
-
-
-
-
-  <div class="col-md-3">
-
-    <!-- normal -->
-    <div class="ih-item circle effect1" ng-click="facialphotos()"><a>
-        <div class="spinner"></div>
-        <div class="img"><img src="images/facial.jpg" alt="img"></div>
-        <div class="info">
-          <div class="info-back">
-            <h3>Facial</h3>
-            <p>$35 </p>
-             <p>(click here for more details)</p>
-          </div>
-        </div></a></div>
-    <!-- end normal -->
-
-</div>
-
-
-  <div class="col-md-2">
-
-    <!-- normal -->
-    <div class="ih-item circle effect1" ng-click="waxingphotos()"><a >
-        <div class="spinner"></div>
-        <div class="img"><img src="images/4.jpg" alt="img"></div>
-        <div class="info">
-          <div class="info-back">
-            <h3>Waxing</h3>
-            <p>$15 and up </p>
-               <p>(click here for more details)</p>
-          </div>
-        </div></a></div>
-    <!-- end normal -->
-
-</div>
-
-
-
-  <div class="col-md-3">
-
-    <!-- normal -->
-    <div class="ih-item circle effect1" ng-click="eyebrowphotos()"><a >
-        <div class="spinner"></div>
-        <div class="img"><img src="images/1.jpg" alt="img"></div>
-        <div class="info">
-          <div class="info-back">
-            <h3>Eyebrow/Threading</h3>
-            <p>$7 and up </p>
-            <p>(click here for more details)</p>
-          </div>
-        </div></a></div>
-    <!-- end normal -->
-
-</div>
-<div class="col-md-1"></div>
-
-
-</div>
 
 
 
@@ -143,18 +155,20 @@
 
            <div class="carousel-caption">
 
-
+<h4>Henna</h4>
            </div>
          </slide>
        </carousel>
 
+
+
+</div>
+<div class="buttonHolder">
 <button class="btn btn-danger btn-lg " ng-click="backToPricePage()">Back</button>
 
 <button class="btn btn-success btn-lg " ng-click="makeAppointment()">Make Appointment </button>
 
-
 </div>
-
  <div class="col-md-3"></div>
 </div>
 
@@ -174,13 +188,13 @@
          </slide>
        </carousel>
 
-<button class="btn btn-danger btn-lg " ng-click="backToPricePage()">Back</button>
-
-<button class="btn btn-success btn-lg " ng-click="makeAppointment()">Make Appointment </button>
 
 
 </div>
-
+<div class="buttonHolder">
+<button class="btn btn-danger btn-lg " ng-click="backToPricePage()">Back</button>
+<button class="btn btn-success btn-lg " ng-click="makeAppointment()">Make Appointment </button>
+</div>
  <div class="col-md-3"></div>
 </div>
 
@@ -198,13 +212,15 @@
          </slide>
        </carousel>
 
+
+
+</div>
+<div class="buttonHolder">
 <button class="btn btn-danger btn-lg " ng-click="backToPricePage()">Back</button>
 
 <button class="btn btn-success btn-lg " ng-click="makeAppointment()">Make Appointment </button>
 
-
 </div>
-
  <div class="col-md-3"></div>
 </div>
 
@@ -223,13 +239,15 @@
          </slide>
        </carousel>
 
+
+
+</div>
+<div class="buttonHolder">
 <button class="btn btn-danger btn-lg " ng-click="backToPricePage()">Back</button>
 
 <button class="btn btn-success btn-lg " ng-click="makeAppointment()">Make Appointment </button>
 
-
 </div>
-
  <div class="col-md-3"></div>
 </div>
 
@@ -247,10 +265,11 @@
 
     <div class="servicelist">
 
-      
+
             <accordion-group is-open="status.open">
+            <div class="serviceHolderDiv">
         <accordion-heading>
-             Service 1 ! <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+             Service  ! <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
         </accordion-heading>
         <div class="control-group">
           <label class="control-label" for="checkboxes">Choose your service </label>
@@ -259,16 +278,19 @@
               <input name="checkboxes"  type="checkbox" ng-model="service.checked">
               {{service.text}}
             </label>
-            
 
-           
 
-            
+
+
+
 
             </div>
+             </div>
 </div>
-</accordion-group>
 
+
+</accordion-group>
+<!--
 
    <accordion-group is-open="status.open">
         <accordion-heading>
@@ -281,33 +303,28 @@
               <input name="checkboxes"  type="checkbox">
               {{services.text}}
             </label>
-            
+
 
             </div>
 </div>
 </accordion-group>
 
-        
+-->
 
 
-        
-
-
-    </div>
-  </br>
-      <pre>Your schedule is on :  {{mytime | date:'shortTime' }} <em>{{dt | date:'fullDate' }}</em></pre>
+<pre>Your schedule is on :  {{mytime | date:'shortTime' }} <em>{{dt | date:'fullDate' }}</em></pre>
 
 
 
-    
 
 
 
-  <div class="col-xs-4">
+
+  <div class="col-xs-6">
                     <input type="text" class="form-control" id="firstName" name="name" placeholder="Your Name">
        </div>
 
-       <div class="col-xs-5">
+       <div class="col-xs-6">
                     <input type="text" class="form-control" name="phone" placeholder="Phone">
                 </div>
 
@@ -315,6 +332,7 @@
 
 
        <div class="control-group">
+<br/><br/><br/>
   <label class="control-label" for="selectbasic">How many person ?</label>
   <div class="controls">
     <select id="selectbasic" name="selectbasic" class="input-large">
@@ -328,25 +346,37 @@
   </div>
 </div>
 
-      <p> Estimate Total :  {{checkedCount()}} </p> 
+      <h3 style="color:red"> Estimate Total :  ${{checkedCount()}} </h3>
+
+
+    </div>
+  </br>  </br>  </br><br/><br/>
+
 
 
       <button class="btn btn-success btn-lg " ng-click="confirm()"> Confirm your order!  </button>
 
 
-    
+
 
 </div>
 
-<div ng-show="placeorder"> Thank you for your order ! 
+<div class="row conformation">
 
+
+<div ng-show="placeorder" class="col-md-12"> <h3 style="color:red">Thank you for your order !</h3>
+<br/><br/><br/><br/>
 <button class="btn btn-success btn-lg " ng-click="confirm2()"> Click here to go back to main page </button>
-
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 </div>
 
 
-<div class="col-md-3"></div>
+
+
+
+
+
 </div>
 
 <br/><br/><br/>

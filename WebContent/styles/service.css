@@ -12,10 +12,10 @@ h1 {
 
 .accordion {
   width: 100%;
-  max-width: 1080px;
+  max-width: 1292px;
   height: 250px;
   overflow: hidden;
-  margin: 50px auto;
+
 }
 
 .accordion ul {
@@ -146,7 +146,71 @@ body { margin: 0; }
 
 
 .serviceMainDiv{
-  background-color: #195c7d;
-    color:red;
+  background-color: #3a6d87;
+    color:black;
     margin-top: -20px;
 }
+
+.controls{
+
+padding:20px 20px 20px 20px;
+}
+
+
+
+
+.servicelist{
+position: absolute;
+margin-top: -370px;
+margin-left: 400px;
+
+}
+
+.conformation{
+text-align: center;;
+}
+
+.headerTitle{
+font-family: cursive;
+font-weight: bold;
+
+}
+
+.buttonHolder{
+margin-right: 0px;
+margin-top:450px;
+margin-left: 520px;
+position: absolute;
+}
+
+.galleryHolder{
+  height:245px;
+width:300px;
+margin-left: 34px;
+}
+
+.galleryHolder1{
+  height:245px;
+width:300px;
+margin-left: 75px;
+}
+
+.galleryHolder2{
+  height:245px;
+width:300px;
+
+margin-left: 60px;
+}
+
+
+.galleryHolder3{
+  height:245px;
+width:300px;
+
+margin-left: 69px;
+}
+
+.servicepicdetails{
+  background-color: #57564f;
+}
+

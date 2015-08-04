@@ -58,7 +58,7 @@ section.module p {
   margin-bottom: 40px;
   font-size: 16px;
 
-font-family: Verdana, Geneva, sans-serif;
+
 padding-left: 10px;
 padding-right: 10px;
 padding-top: 10px;
@@ -69,7 +69,16 @@ section.module p:last-child {
   margin-bottom: 0;
 }
 section.module.content {
-  padding: 5px 0;
+  padding: 5px ;
+
+}
+
+
+section.module.parallax:hover {
+  background-color: #47023a;
+  border-radius: 40px;
+box-shadow: -10px -10px 0  #195c7d;
+
 }
 section.module.parallax {
   height: 600px;
@@ -98,24 +107,6 @@ section.module.parallax-3 {
 }
 section.module.parallax-4 {
   background-image: url("../images/henna.jpg");
-}
-
-.note {
-  position: relative;
-  width: 45%;
-  padding: 1em 1.5em;
-  color: #fff;
-  background: #47023a;
-   border-radius: 40px;
-}
-.note:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-width: 0 46px 46px 0;
-  border-style: solid;
-  border-color: #658E15 #fff;
 }
 
 
@@ -250,8 +241,8 @@ section.module.parallax-4 {
 
 
 #footer {
-text-align: center;
-   height:80px;
+
+   height:100px;
    width:100%;
    background:black;
    font-size: 10pt;

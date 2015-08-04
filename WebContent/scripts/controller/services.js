@@ -178,7 +178,7 @@
   // };
 
   $scope.confirm=function(){
-        
+
     $scope.scheduleDay=false;
     $scope.placeorder = true;
 
@@ -186,20 +186,22 @@
 
 
 $scope.confirm2=function(){
-      
+
     $scope.placeorder = false;
     $scope.maincontentdiv=false;
+            $scope.servicepicdetails=false;
+
 };
 
-  
+
 
 
   $scope.services = [
 
-    {price: 1, text: 'item 1', checked: false},
-    {price: 2, text: 'item 2',checked : false},
-    {price: 3, text: 'item 3',checked:false},
-    {price: 4, text: 'item 4', checked:false}
+    {price: 10, text: 'Eyebrow ', checked: false},
+    {price: 20, text: 'Facial',checked : false},
+    {price: 30, text: 'Small Henna',checked:false},
+    {price: 40, text: 'Full Leg Waxing', checked:false}
   ];
 
 
@@ -210,14 +212,14 @@ $scope.confirm2=function(){
   //   {price: 3, text: 'item 7'},
   //   {price: 4, text: 'item 8'}
   // ];
-    
+
  $scope.checkedCount = function(){
       return $scope.services.filter(function(person){
         return person.checked;
       }).length;
     }
-      
-  
+
+
 
 
 
