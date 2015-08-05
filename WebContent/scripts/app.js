@@ -10,10 +10,10 @@
  */
 angular
   .module('dhagaThreadingApp', [
-    
+
     'ngRoute',
     'ui.bootstrap'
-    
+
 
   ] )
   .config(function ($routeProvider) {
@@ -38,6 +38,11 @@ angular
         templateUrl: 'views/contact.html',
         controller: 'contactCtrl'
       })
+      .when('/chartPage', {
+        templateUrl: 'views/chartPage.html',
+        controller: 'chartCtrl'
+      })
+
       .otherwise({
         redirectTo: '/'
       });

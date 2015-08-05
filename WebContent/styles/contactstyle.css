@@ -1,14 +1,10 @@
 
-
+/*
 .contactMainDiv{
     margin-top: -20px;
 
-}
-.map_canvas{
-    margin-left: 160px;
-    margin-top: 25px;
+}*/
 
-}
 
 
 .contactLogo{
@@ -64,7 +60,7 @@ img { border: 0; max-width: 100%; }
 .contacth1 {
   font-family: 'Skranji', 'Trebuchet MS', sans-serif ! important;
   font-weight: bold;
-  font-size: 3.75em;
+  font-size: 2.0em;
   line-height: 1.7em;
   margin-bottom: 7px;
 
@@ -79,10 +75,10 @@ img { border: 0; max-width: 100%; }
 /* positioning */
 #w {
   display: block;
-  width: 660px;
-
-  margin-top: 13px;
-  padding:  10px 15px;
+  width: 100%;
+height: 100%;
+  margin-top: 10px ;
+  padding:  10px 10px;
   background: #fff;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
@@ -177,7 +173,7 @@ form .txtarea {
   display: inline-block;
   padding: 8px 11px;
   padding-right: 30px;
-  width: 320px;
+  width: 50%;
   height: 120px;
   font-family: 'Oxygen', sans-serif;
   font-size: 1.35em;
@@ -204,7 +200,7 @@ form .txtarea {
 }
 
 form .txt:focus, form .txtarea:focus {
-  width: 300px;
+  width: 50%;
   color: #545454;
   background-color: #fff;
   background-position: 110% center;
@@ -283,4 +279,50 @@ form .center {
   -webkit-box-shadow: 0 0 15px rgba(70, 100, 200, 0.9), 0 1px 3px rgba(0,0,0,0.4) inset;
   -moz-box-shadow: 0 0 15px rgba(70, 100, 200, 0.9), 0 1px 3px rgba(0,0,0,0.4) inset;
   box-shadow: 0 0 15px rgba(70, 100, 200, 0.9), 0 1px 3px rgba(0,0,0,0.4) inset;
+}
+
+
+
+.trendBtncontactPage {
+  background: #eee;
+  text-align: center;
+width:100%;
+
+}
+
+.mapDividerContact{
+color:white;
+  text-align: center;
+  background-image:url("../images/bg_horizental.png");
+height:200px;
+font-family: 'Oxygen', sans-serif;
+text-shadow: 0 2px white, 1px 3px #666 ;
+  text-transform: uppercase;
+background-repeat: no-repeat;
+}
+
+iframe {
+  border-top: #c00 1px dotted;
+  border-right: #c00 2px dotted;
+  border-left: #c00 2px dotted;
+  border-bottom: #c00 4px dotted;
+}
+
+iframe {
+  margin-top: 20px;
+  margin-bottom: 70px;
+margin-left: 200px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+
+  -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+
+  -moz-transform:rotate(10deg);
+  -webkit-transform:rotate(10deg);
+  -o-transform:rotate(10deg);
+  -ms-transform:rotate(10deg);
+  filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=.2);
 }
