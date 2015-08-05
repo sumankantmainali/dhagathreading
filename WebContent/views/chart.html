@@ -1,4 +1,3 @@
-
 <div>
 	
 
@@ -6,8 +5,8 @@
  <div class="charts--container">
   <ul>
     <li class="chart">
-      <h3 class="chart--subHeadline"></h3>
-      <h2 class="chart--headline"> Trending this week!</h2>
+      <h3 class="chart--subHeadline">Chart 1</h3>
+      <h2 class="chart--headline">Service that trending this week</h2>
       <div id="pieChart">
         <svg id="pieChartSVG">
           <defs>
@@ -35,7 +34,7 @@
 </div>
 
    <!--  chart 2  -->
-	<div ng-show="chart2">
+
 
             <li class="chart">
               <h3 class="chart--subHeadline">Chart 2</h3>
@@ -53,10 +52,9 @@
             </li>
           </ul>
         </div>
-		
-			<button class="btn btn-success " ng-href="#/about" href="#/about"> Go back!</button>
 
-</div>
+
+
 
 
 
@@ -128,17 +126,22 @@
     pieChart  : [
       {
         color       : 'red',
-        description : 'Henna ',
-        title       : '',
-        value       : 0.70
+        description : 'some comment about first service !!!',
+        title       : 'Service 1 ',
+        value       : 0.50
       },
       {
         color       : 'blue',
-        description : 'Facial',
-        title       : '',
+        description : 'some comment about second service ',
+        title       : 'Service 2',
         value       : 0.30
       },
-      
+      {
+        color       : 'yellow',
+        description : ' some comment about service 3 ?',
+        title       : 'Service 3 ',
+        value       : 0.20
+      }
     ]
   };
   
