@@ -38,6 +38,10 @@ angular
         templateUrl: 'views/contact.html',
         controller: 'contactCtrl'
       })
+      .when('/history', {
+        templateUrl: 'views/history.html',
+        controller: 'historyCtrl'
+      })
       .when('/chartPage', {
         templateUrl: 'views/chartPage.html',
         controller: 'chartCtrl'

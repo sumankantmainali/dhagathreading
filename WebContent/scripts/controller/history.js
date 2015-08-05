@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name dhagaThreadingApp.controller:historyCtrl
+ * @name dhagaThreadingApp.controller:AboutCtrl
  * @description
  * # AboutCtrl
  * Controller of the dhagaThreadingApp
  */
 angular.module('dhagaThreadingApp')
-  .controller('historyCtrl', function ($scope) {
+  .controller('chartCtrl', function ($scope) {
 
 
 
