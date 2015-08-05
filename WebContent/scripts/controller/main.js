@@ -42,6 +42,8 @@ $scope.slides = [
     image: 'images/1.jpg'
     }
   ];
+
+  /*
     $scope.ind=0;
 
     $scope.nxt=function(){
@@ -58,7 +60,7 @@ $scope.slides = [
 
 
 
-/*
+
 
 $scope.prev=function(){
 $scope.ind--;
