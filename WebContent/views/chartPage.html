@@ -1,11 +1,14 @@
 
-<div>
+
 
 
 
  <div class="charts--container">
   <ul>
-    <li class="chart">
+
+
+    <div ng-show="chart1">
+        <li class="chart" >
       <h3 class="chart--subHeadline"></h3>
       <h2 class="chart--headline"> Trending this week!</h2>
       <div id="pieChart">
@@ -33,9 +36,10 @@
     </li>
 
 </div>
+  
 
    <!--  chart 2  -->
-	<div ng-show="chart2">
+	<!-- <div ng-hide="chart2">
 
             <li class="chart">
               <h3 class="chart--subHeadline">Chart 2</h3>
@@ -52,21 +56,20 @@
               </div>
             </li>
           </ul>
-        </div>
+        </div> -->
 
-			<a href="#/about"><button class="btn btn-success " > Go back!</button></a>
-
-</div>
-
-
-
-
-
-
-
-
+			
 
 </div>
+
+  <a href="#/about"><button class="btn btn-success " > Go back!</button></a>
+
+
+
+
+
+
+
 
 
 <script type="text/javascript">
@@ -130,25 +133,25 @@
         color       : 'red',
         description : 'Henna ',
         title       : '',
-        value       : 0.40
+        value       : 0.30
       },
       {
         color       : 'blue',
         description : 'Facial',
         title       : '',
-        value       : 0.30
-      },
-      {
-        color       : 'green',
-        description : 'Waxing ',
-        title       : '',
         value       : 0.20
       },
       {
-        color       : 'black',
-        description : 'Threading ',
+        color       : 'white',
+        description : 'Waxing ',
         title       : '',
         value       : 0.10
+      },
+      {
+        color       : 'yellow',
+        description : 'Threading ',
+        title       : '',
+        value       : 0.40
       }
 
     ]
@@ -561,4 +564,3 @@
 </script>
 
 
-</div>

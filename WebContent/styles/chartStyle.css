@@ -10,7 +10,7 @@ body ul, body li {
 }
 
 .chart {
-  min-height: 400px;
+  max-height: 400px;
   border-bottom: 1px solid #eee;
   padding: 1em;
 }
@@ -175,6 +175,14 @@ body ul, body li {
 .pieChart__red {
   fill: #d79d91;
 }
+
+.pieChart__white{
+  fill: #ff5af3;
+}
+.pieChart__yellow {
+  fill: #f2ea28;
+}
+
 
 /**
  * Helper classes
