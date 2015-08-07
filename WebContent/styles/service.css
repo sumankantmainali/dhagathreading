@@ -1,11 +1,11 @@
-
+/*
 h1 {
   text-align: center;
   font-family: Montserrat, sans-serif;
   color: #333;
   margin-top:150px;
 }
-
+*/
 .accordion {
   width: 100%;
   max-width: 1292px;
@@ -144,8 +144,14 @@ body { margin: 0; }
 .serviceMainDiv{
   background-color: #666261;
     color:black;
-    margin-top: -20px;
+
 }
+
+
+.serviceBannerCarousel{
+   margin-top: -20px;
+}
+
 
 .controls{
 

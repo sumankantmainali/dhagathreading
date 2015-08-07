@@ -1,3 +1,16 @@
+<!-- ================Carousel start ======Main Page ===Banner=====-->
+<div class="row serviceBannerCarousel"></div>
+<carousel interval="myInterval" ng-hide="servicePageBannerCarousel">
+         <slide ng-repeat="slide in slides0" active="slide.active">
+        <img ng-src="{{slide.image}}">
+
+           <div class="carousel-caption">
+
+
+           </div>
+         </slide>
+       </carousel>
+
 
 
 
@@ -5,8 +18,8 @@
 
   <!-- ==========Service ======Henna Gallery ======== -->
     <div class="row">
-      <div class="col-sm-4 galleryHolder" align="center">
-        <h3>Henna Tattoo</h3>
+      <div class="col-sm-4 galleryHolder" align="center" ng-click="hennaphotos()">
+        <h4><strong>Henna Tattoo</strong></h4>
         <!-- normal -->
         <div class="ih-item circle effect1" ng-click="hennaphotos()"><a >
           <div class="spinner" ng-click="hennaphotos()"></div>
@@ -29,7 +42,6 @@
             molasses,our skilled artists mix the paste,and fill bottles.witch are used to apply the paste to the skin in delicate
             or bodly sensual patterns,We provide a complete Mehndi experience,preparing the skin,custom designs,and
             after-care to insure a beautiful result.<br/>   <br/>
-            <button class="btn btn-success " ng-click="makeAppointment()">Make Appointment </button>
           </p>
 
         </div>
@@ -42,7 +54,7 @@
 
   <div class="row">
   <div class="col-md-4 galleryHolder1" align="center">
-     <h3>Facial</h3>
+     <h4><strong>Facial </strong></h4>
         <!-- normal -->
       <div class="ih-item circle effect1" ng-click="facialphotos()"><a>
           <div class="spinner"></div>
@@ -79,8 +91,8 @@
   <!-- =============Facial Gallery End=======================End Facial Gallery===================-->
 
     <br/>
-     <div class="row col-sm-12  ">
-<img src="images/beautifulyou.jpg">
+     <div class="row ">
+<img src="images/beautifulyou.jpg" class="hvr-wobble-vertical">
 <!-- =========Scroll Down Arrow ====== -->
         <ul  id="bouncearr" >
            <li><a href="" ><i class="glyphicon glyphicon-chevron-down"></i></a></li>
@@ -130,7 +142,6 @@
           or bodly sensual patterns,We provide a complete Mehndi experience,preparing the skin,custom designs,and
           after-care to insure a beautiful result.
           <br/>
-  <button class="btn btn-success " ng-click="makeAppointment()">Make Appointment </button>
   </p>
 
   </div>
@@ -193,12 +204,18 @@
 
   <!-- ===========================End Of Threading gallery============================-->
 
-  <!-- =========================Main Div Of Service Page End==============================-->
-
   </div>
 
 
 
+     <div class="row">
+     <img src="images/bannerMainPage1.jpg" class="hvr-grow">
+   </div>
+</div>
+
+
+    </div>
+<!-- =========================Main Div Of Service Page End==============================-->
 
 
 
@@ -206,78 +223,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!--
-  <div class="row  servicepicdetails" ng-hide="servicepicdetails" >
-
-
-  <div class="accordion servicePicHolder">
-    <ul >
-
-      <li  class="img-responsive ">
-        <div > <a >
-          <h2>Facial</h2>
-          <p>"A professional treatment will fully cleanse your skin in a way that you simply can't at home,"</p>
-          </a> </div>
-      </li>
-      <li  class="img-responsive" >
-        <div > <a>
-          <h2>Henna Tattoo</h2>
-          <p>Body Art With Henna Tattoo</p>
-          </a> </div>
-      </li>
-      <li class="img-responsive">
-        <div> <a>
-          <h2>Waxing</h2>
-          <p>Extra Care To Your Skin</p>
-          </a> </div>
-      </li>
-      <li class="img-responsive">
-        <div> <a href="target blank">
-          <h2>Eyebrow</h2>
-          <p>We Suggest and Style your Brows</p>
-          </a> </div>
-      </li>
-
-
-    </ul>
-  </div>
-
-
-  </div>
-
-  -->
 
 
   <div class="col3  "  ng-hide="hennagallery" >
@@ -299,35 +244,6 @@
   </div>
   <br/>
   </div>
-
-
-  <!--
-    <div class="col-md-3"></div>
-  <div class="hennagallery col-md-6">
-  <carousel interval="myInterval">
-           <slide ng-repeat="slide in slides" active="slide.active">
-          <img ng-src="{{slide.image}}">
-
-             <div class="carousel-caption">
-
-  <h4>Henna</h4>
-             </div>
-           </slide>
-         </carousel>
-
-
-
-  </div>
-  <div class="buttonHolder">
-  <button class="btn btn-danger btn-lg " ng-click="backToPricePage()">Back</button>
-
-  <button class="btn btn-success btn-lg " ng-click="makeAppointment()">Make Appointment </button>
-
-  </div>
-   <div class="col-md-3"></div>
-  -->
-
-
 
 
 
@@ -535,7 +451,7 @@
 
   </div>
 
-  <br/><br/><br/>
+
 
   </div>
 

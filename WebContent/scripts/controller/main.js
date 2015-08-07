@@ -23,25 +23,7 @@ $scope.contactdiv=true;
            $scope.picPath=$scope.jdata.allProducts[$scope.ind].imagePath;
        });
 
-//user can click on image for next slide (picture)
 
-$scope.myInterval = 3000;
-
-$scope.slides = [
-    {
-      image: 'images/5.jpg'
-    },
-    {
-     image: 'images/2.jpg'
-    },
-    {
-    image: 'images/3.jpg'
-    },
-
-     {
-    image: 'images/1.jpg'
-    }
-  ];
 
   /*
     $scope.ind=0;

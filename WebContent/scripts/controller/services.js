@@ -4,7 +4,7 @@
    .controller('servicesCtrl', function ($scope,DhagaService) {
 
 
-
+$scope.servicePageBannerCarousel=false;
       $scope.maincontentdiv=false;
         $scope.servicepicdetails=false;
       $scope.hennagallery=true;
@@ -12,6 +12,29 @@
       $scope.facialgallery=true;
       $scope.eyebrowgallery=true;
     $scope.myInterval = 3000;
+
+
+
+//====carausol=====user can click on image for next slide (picture)
+
+
+$scope.slides0 = [
+    {
+      image: 'images/5.jpg'
+    },
+    {
+     image: 'images/2.jpg'
+    },
+    {
+    image: 'images/3.jpg'
+    },
+
+     {
+    image: 'images/1.jpg'
+    }
+  ];
+
+/*Service page ====main Carasoul END=====END====*/
 
   $scope.slides = [
       {
@@ -36,6 +59,7 @@
           $scope.servicepicdetails=true;
       $scope.waxinggallery=true;
       $scope.facialgallery=true;
+$scope.servicePageBannerCarousel=true;
 
 
   };
@@ -65,6 +89,7 @@
       $scope.waxinggallery=true;
       $scope.facialgallery=false;
 
+$scope.servicePageBannerCarousel=true;
 
   };
 
@@ -93,6 +118,7 @@
       $scope.waxinggallery=false;
       $scope.facialgallery=true;
 
+$scope.servicePageBannerCarousel=true;
 
   };
 
@@ -124,6 +150,7 @@
       $scope.facialgallery=true;
       $scope.eyebrowgallery=false;
 
+$scope.servicePageBannerCarousel=true;
 
   };
 
@@ -135,6 +162,7 @@
       $scope.waxinggallery=true;
       $scope.eyebrowgallery=true;
 
+$scope.servicePageBannerCarousel=false;
 
   };
 
@@ -146,6 +174,7 @@
       $scope.facialgallery=true;
       $scope.waxinggallery=true;
       $scope.eyebrowgallery=true;
+$scope.servicePageBannerCarousel=true;
 
 
      $scope.mytime = new Date();
