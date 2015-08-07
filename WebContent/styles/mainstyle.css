@@ -1,6 +1,6 @@
 
 .imageDiv{
-    height:700px;
+
     margin-top:-20px;
 }
 
@@ -17,38 +17,18 @@
 }
 
 .contentdiv{
-  /*background-image: url("../images/bg1.jpg");*/
   color:white;
-  background-color: #195c7d;
+  background-color: #666261;
+  color:#ffffff;
 }
 
-/*
-
-.productInfoDiv{
-      height:500px;
-    width:450px;
-    margin-left: 635px;
-    margin-top: -600px;
-    position: absolute;
-     overflow: scroll;
-     padding:10px 10px 10px;
-}
-
-*/
-
-/*
-  body{
-  background-image: url("/images/mainBackground.jpg");
-}
-
-
-.collapse>ul>li:hover {
-  background-color: #47023a;
-  border-radius: 40px;
-box-shadow: -10px -10px 0 #98004a;
+.navbar-inverse {
+  background-color: #0d1336 ! important;
+  text-indent: 50px;
+  border-radius: 0px ! important;
 
 }
-*/
+
 
 section.module:last-child {
   margin-bottom: 0;
@@ -83,7 +63,7 @@ box-shadow: -10px -10px 0  #195c7d;
 }
 */
 section.module.parallax {
-  height: 600px;
+  height: 500px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -210,6 +190,7 @@ section.module.parallax-4 {
     width: 90px;
     height: 150px;
     margin-right: 10px;
+
     background: #dddddd;
 }
 
@@ -225,7 +206,7 @@ section.module.parallax-4 {
   }
 }
 
-
+/*======start======Top Scroll======start======*/
 .scroll-top {
    position:fixed;
    bottom:0;
@@ -241,6 +222,12 @@ section.module.parallax-4 {
   color:#222;
 }
 
+/*======End======Top Scroll======End======*/
+
+
+
+/*==============Start====Footer===========Start==========*/
+
 
 #footer {
 
@@ -253,6 +240,18 @@ section.module.parallax-4 {
 }
 
 
+
+/*==============END====Footer===========END==========
+.contactLogo{
+
+margin-top:-2%;
+margin-left: 60%;
+
+
+}
+
+*/
+
 .container-2{
   width: 300px;
   vertical-align: middle;
@@ -262,26 +261,26 @@ section.module.parallax-4 {
 
 }
 
+.btn-primary{
+  border-radius: 50px ! important;
+}
 .container-2 input#search{
   width: 80px;
   height: 33px;
-  background: white;
+  background: grey;
   border: none;
   font-size: 10pt;
   float: left;
   color: #262626;
   padding-left: 15px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 2px;
-  color: red;
 
 
-  -webkit-transition: width .55s ease;
-  -moz-transition: width .55s ease;
-  -ms-transition: width .55s ease;
-  -o-transition: width .55s ease;
-  transition: width .55s ease;
+  border-top-left-radius: 50em;
+border-top-right-radius: 50em ;
+border-bottom-right-radius: 50em;
+border-bottom-left-radius: 50em ;
+
+
 }
 
 .container-2 input#search::-webkit-input-placeholder {
@@ -311,11 +310,11 @@ section.module.parallax-4 {
 
 .container-2 input#search:focus, .container-2 input#search:active{
   outline:none;
-  width: 200px;
+  width:  150px;
 }
 
 .container-2:hover input#search{
-width: 201px;
+width: 150px;
 }
 
 .container-2:hover .icon{
@@ -325,7 +324,7 @@ width: 201px;
 
 
 
-
+/*===================Login Main Page SetUp CSS =============*/
 .loginh1 {
   color:black;
   font-size: 44px;
@@ -412,4 +411,31 @@ width: 201px;
   background: #d35400;
 }
 
+/*==========END=========Login Main Page SetUp CSS =======END======*/
 
+/*===============main page below pointer icon =========*/
+
+
+
+
+#bouncearr {
+    position: absolute;
+float: right;
+margin-left: 90%;
+color:green;
+    bottom: 0;
+
+
+    font-size: 40px;
+    line-height: 40px;
+    -webkit-animation: bounce 2s infinite ease-in-out;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
+    40%  { -webkit-transform: translateY(-20px); }
+  80% { -webkit-transform: translateY(-10px); }
+}
+
+
+/*=========END======main page below pointer icon =====END=======*/

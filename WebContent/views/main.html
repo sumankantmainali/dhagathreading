@@ -3,12 +3,12 @@
 <div class="mainPageContainer ">
 
 
-  <div class="imageDiv  " >
+  <div class="imageDiv " >
     <!--
     <div  class="imageholder img-responsive " > <img src="{{picPath}}"  class=" img-responsive morp" ng-click="nxt()" ></div>
 
 -->
-
+<!-- ================Carousel start ======Main Page ===Banner=====-->
 <carousel interval="myInterval">
          <slide ng-repeat="slide in slides" active="slide.active">
         <img ng-src="{{slide.image}}">
@@ -24,19 +24,15 @@
 
   </div>
 
-<!--
+<!-- =========Scroll Down Arrow ====== -->
+        <ul  id="bouncearr">
+           <li><a href="" ><i class="glyphicon glyphicon-chevron-down"></i></a></li>
 
-  <div class=" note para productInfoDiv">
-    <h3> {{titlechange}}</h3>
-    <br/>
-    <h4> {{productchange}}</h4>
-  </div>
--->
+</ul>
 
-  <br/><br/><br/><br/>
-
+<!-- ======main page======1st Parallax ====-->
   <section class="module parallax parallax-1 img-responsive" >
-    <div class="container-fluid">
+    <div class="container-fluid img-responsive">
 
     </div>
   </section>
@@ -62,20 +58,22 @@ Threading is fast, meticulous and minimally invasive and has now become a Hollyw
  <button class="btn btn-danger hvr-buzz ">More....</button>
  <br/> <br/>
  </div>
+
  <div class="col-md-4">
 <div class="loginBox">
     <section class="sectionLogin">
-  <span class="loginspan"></span>
+  <span class="loginspan hvr-pop"></span>
   <h1 class="loginh1" >Member Login</h1>
   <form>
-    <input placeholder='User Name' type='text' class="loginInput">
-    <input placeholder='Password' type='password' class="loginInput">
+    <input placeholder='User Name' type='text' class="loginInput hvr-pop">
+    <input placeholder='Password' type='password' class="loginInput hvr-pop">
   </form>
-  <button class="loginBtn">LOGIN</button>
+  <button class="loginBtn hvr-buzz">LOGIN</button>
   <h2 class="loginh2">
     <a href='' class="logina">Forgot Password? </a>
   </h2>
-  <br/><br/><br/><br/><br/>
+  <br/>
+  <br/><br/><br/><br/>
 </form>
 </section>
 </div>
@@ -106,7 +104,7 @@ Threading is fast, meticulous and minimally invasive and has now become a Hollyw
             </div>
             <div class="col-sm-4">
               <!-- normal -->
-    <div  class="ih-item square colored effect4" ><a >
+    <div  class="ih-item square colored effect4" ><a href="">
         <div  ng-click="hennaphotos()"></div>
         <div class="img"><img src="images/eyebrow/1.jpg" alt="img"></div>
         <div class="mask1"></div>
@@ -123,7 +121,7 @@ Threading is fast, meticulous and minimally invasive and has now become a Hollyw
 
 
  <!-- colored -->
-    <div class="ih-item square colored effect8 scale_down"><a href="#">
+    <div class="ih-item square colored effect8 scale_down"><a href="">
         <div class="img"><img src="images/eyebrow/2.jpg" alt="img"></div>
         <div class="info">
           <h3>Threading</h3>
@@ -212,7 +210,7 @@ esthetician should stay in the room and give you a scalp massage or some other s
 <div class="col-sm-4">
   <br/>
 <!-- normal -->
-    <div class="ih-item square effect15 left_to_right"><a href="#">
+    <div class="ih-item square effect15 left_to_right"><a href="">
         <div class="img"><img src="images/facial/1.jpg" alt="img"></div>
         <div class="info">
           <h3>Facial</h3>
@@ -222,7 +220,7 @@ esthetician should stay in the room and give you a scalp massage or some other s
     <!-- end normal -->
 
     <!-- normal -->
-    <div class="ih-item square effect14 bottom_to_top"><a href="#">
+    <div class="ih-item square effect15 left_to_right"><a href="">
         <div class="img"><img src="images/facial/2.jpg" alt="img"></div>
         <div class="info">
          <h3>Mini Facial</h3>
@@ -232,7 +230,7 @@ esthetician should stay in the room and give you a scalp massage or some other s
     <!-- end normal -->
 
        <!-- normal -->
-    <div class="ih-item square effect15 top_to_bottom"><a href="#">
+    <div class="ih-item square effect15 left_to_right"><a href="">
         <div class="img"><img src="images/facial/3.jpg" alt="img"></div>
         <div class="info">
           <h3>Cleansing</h3>
@@ -268,7 +266,7 @@ esthetician should stay in the room and give you a scalp massage or some other s
     <div class="container-fluid contentdiv  img-responsive ">
       <div class="col-sm-4">
 <!-- normal -->
-    <div class="ih-item square effect14 right_to_left"><a >
+    <div class="ih-item square effect14 right_to_left"><a href="">
 
         <div class="img"><img src="images/henna/3.jpg" alt="img"></div>
         <div class="info">
@@ -286,7 +284,7 @@ esthetician should stay in the room and give you a scalp massage or some other s
 <!-- Right to left-->
 
     <!-- normal -->
-    <div class="ih-item square effect14 right_to_left"><a href="#">
+    <div class="ih-item square effect14 right_to_left"><a href="">
         <div class="img"><img src="images/henna/4.jpg" alt="img"></div>
         <div class="info">
           <h3>Henna Tattoo</h3>
@@ -297,7 +295,7 @@ esthetician should stay in the room and give you a scalp massage or some other s
 
 
     <!-- normal -->
-    <div class="ih-item square effect14 right_to_left"><a href="#">
+    <div class="ih-item square effect14 right_to_left"><a href="">
         <div class="img"><img src="images/henna/2.jpg" alt="img"></div>
         <div class="info">
           <h3>Henna Tattoo</h3>

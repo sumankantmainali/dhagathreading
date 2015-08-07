@@ -233,6 +233,7 @@ $scope.confirm2=function(){
 
 
           $(document).ready(function() {
+              $('.go-top').fadeOut();
               // Show or hide the sticky footer button
               $(window).scroll(function() {
                   if ($(this).scrollTop() > 200) {
@@ -249,6 +250,29 @@ $scope.confirm2=function(){
                   $('html, body').animate({scrollTop: 0}, 300);
               })
           });
+
+
+
+
+
+        $(document).ready(function() {
+
+   // Show or hide the sticky footer button scroll down
+            $(window).scroll(function() {
+                if ($(this).scrollTop() < 50) {
+                    $('#bouncearr').fadeIn(200);
+                } else {
+                    $('#bouncearr').fadeOut(200);
+                }
+            });
+
+
+
+
+
+
+
+        });
 
 
 

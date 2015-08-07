@@ -78,12 +78,13 @@ $scope.ind--;
 */
 
         $(document).ready(function() {
+             $('.go-top').fadeOut();
             // Show or hide the sticky footer button
             $(window).scroll(function() {
-                if ($(this).scrollTop() > 200) {
-                    $('.go-top').fadeIn(200);
+                if ($(this).scrollTop() > 300) {
+                    $('.go-top').fadeIn(100);
                 } else {
-                    $('.go-top').fadeOut(200);
+                    $('.go-top').fadeOut(100);
                 }
             });
 
@@ -93,7 +94,27 @@ $scope.ind--;
 
                 $('html, body').animate({scrollTop: 0}, 300);
             })
+
+
+   // Show or hide the sticky footer button scroll down
+            $(window).scroll(function() {
+                if ($(this).scrollTop() < 50) {
+                    $('#bouncearr').fadeIn(200);
+                } else {
+                    $('#bouncearr').fadeOut(200);
+                }
+            });
+
+
+
+
+
+
+
         });
+
+
+
 
 
 });
