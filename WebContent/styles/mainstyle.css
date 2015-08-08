@@ -1,4 +1,5 @@
 
+
 .imageDiv{
 
     margin-top:-20px;
@@ -758,3 +759,8 @@ font-family: Georgia;
 }
 
 
+.modal-body {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+    color:red;
+}
