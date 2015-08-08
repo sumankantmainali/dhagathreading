@@ -219,6 +219,7 @@ $scope.confirm2=function(){
     $scope.placeorder = false;
     $scope.maincontentdiv=false;
             $scope.servicepicdetails=false;
+$scope.servicePageBannerCarousel=false;
 
 };
 
