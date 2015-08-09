@@ -11,7 +11,7 @@
  angular.module('dhagaThreadingApp' )
  .controller('MainCtrl', function ($scope,DhagaService) {
 
-
+ $scope.ind=0;
 $scope.contactdiv=true;
 
     /* storing value in response from json call in service- GuitarService*/
@@ -19,8 +19,31 @@ $scope.contactdiv=true;
         $scope.jdata=response.data;
            // console.log($scope.jdata);
             $scope.titlechange=$scope.jdata.allProducts[$scope.ind].title;
+            $scope.titlechange1=$scope.jdata.allProducts[$scope.ind+4].title;
+
+
+$scope.facialsteptitle=$scope.jdata.allProducts[$scope.ind+4].step1title;
+ $scope.facialsteptitle1=$scope.jdata.allProducts[$scope.ind+4].step2title;
+$scope.facialsteptitle2=$scope.jdata.allProducts[$scope.ind+4].step3title;
+$scope.facialsteptitle3=$scope.jdata.allProducts[$scope.ind+4].step4title;
+$scope.facialsteptitle4=$scope.jdata.allProducts[$scope.ind+4].step5title;
+
+$scope.facialstepdetails=$scope.jdata.allProducts[$scope.ind+4].step1details;
+$scope.facialstepdetails1=$scope.jdata.allProducts[$scope.ind+4].step2details;
+$scope.facialstepdetails2=$scope.jdata.allProducts[$scope.ind+4].step3details;
+$scope.facialstepdetails3=$scope.jdata.allProducts[$scope.ind+4].step4details;
+$scope.facialstepdetails4=$scope.jdata.allProducts[$scope.ind+4].step5details;
+
+$scope.stepdetails=$scope.jdata.allProducts[$scope.ind].step1details;
+
+
            $scope.productchange=$scope.jdata.allProducts[$scope.ind].productDescription;
-           $scope.picPath=$scope.jdata.allProducts[$scope.ind].imagePath;
+           $scope.productchange1=$scope.jdata.allProducts[$scope.ind+1].productDescription;
+            $scope.productchange2=$scope.jdata.allProducts[$scope.ind+7].productDescription;
+
+
+              $scope.picPath=$scope.jdata.allProducts[$scope.ind].imagePath;
+
        });
 
 

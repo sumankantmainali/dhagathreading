@@ -2,7 +2,7 @@
     "allProducts": [
         {
             "imagePath": "images/1.jpg",
-            "productDescription": " Full Service Salon for Women & Men",
+            "productDescription": " santa Ana first and only beauty spa exclusively dedicated to eyebrow and facial threading. We bring ancient South Asian Indian practice to the center of the modern world. We use historically proven techniques to enhance your natural beauty. With more than 10 years of experience, we are known to provide quality service that our clients expect within a professional, friendly and comfortable atmosphere. The Brow Boutique is an upscale and a trendy threading boutique that promotes expressive, in-style eyebrows at an affordable price. Whether your face needs grooming or if your eyebrows need a new look, our threading professionals are here to accommodate your needs. Threading is fast, meticulous and minimally invasive and has now become a Hollywood trend that has caught the attention of countless number of celebrities. Salma Hayek, Brad Pitt, Reese Witherspoon, Paula Abdul and Liz Hurley are few of the names that have converted themselves to this awesome technique of threading.",
             "title": "Welcome To Dhaga Threading"
         },
         {
@@ -13,21 +13,32 @@
         {
             "imagePath": "images/3.jpg",
             "productDescription": "A facial is one of the best ways to take care of your skin, especially when it's given by an experienced, knowledgeable esthetician. A facial cleans, exfoliates and nourishes the skin, promoting a clear, well-hydrated complexion, and can help your skin look younger.",
-             "title": "Extra Care With Facial"
+            "title": "Extra Care With Facial"
         },
         {
             "imagePath": "images/4.jpg",
             "productDescription": "Waxing is a form of semi-permanent hair removal which removes the hair from the root. New hair will not grow back in the previously waxed area for four to six weeks, although some people will start to see regrowth in only a week due to some of their hair being on a different growth cycle. Almost any area of the body can be waxed, including eyebrows, face, pubic area (called bikini waxing), legs, arms, back, abdomen and feet. There are many types of waxing suitable for removing unwanted hair.Waxing is a form of semi-permanent hair removal which removes the hair from the root. New hair will not grow back in the previously waxed area for four to six weeks, although some people will start to see regrowth in only a week due to some of their hair being on a different growth cycle. Almost any area of the body can be waxed, including eyebrows, face, pubic area (called bikini waxing), legs, arms, back, abdomen and feet. There are many types of waxing suitable for removing unwanted hair.Waxing is a form of semi-permanent hair removal which removes the hair from the root. New hair will not grow back in the previously waxed area for four to six weeks, although some people will start to see regrowth in only a week due to some of their hair being on a different growth cycle. Almost any area of the body can be waxed, including eyebrows, face, pubic area (called bikini waxing), legs, arms, back, abdomen and feet. There are many types of waxing suitable for removing unwanted hair.",
             "title": "Waxing"
         },
-
         {
             "imagePath": "images/5.jpg",
-            "productDescription": "some details of 5 pic"
+            "productDescription": "some details of 5 pic",
+            "title": "The Basic Steps of a Facial",
+            "step1title": "Consultation",
+            "step2title": "Cleansing",
+            "step3title": "Skin Analysis",
+            "step4title": "Steam",
+            "step5title": "Extractions",
+            "step1details": "A facial should begin with a consultation. The esthetician might have you fill out a form that has questions about your skin concerns, your diet, how much water you drink, drugs and supplements you take, and products you are currently using. This can affect your skin and what kind of treatments she recommends",
+            "step2details": " After wrapping your hair with a towel or headband, the esthetician begins a facial with a thorough cleansing, using cotton pads, esthetician wipes or sponges",
+            "step3details": " The esthetician covers your eyes and looks at your skin through a brightly lit magnifying lamp. He or she is determining your basic skin type (dry, oily, combination, sensitive or normal) and skin conditions (acne, blackheads, whiteheads, aging, sun-damage, dehydration, etc.) The esthetician then chooses the appropriate products and treatments, and consults with you about what he or she sees and recommends.",
+            "step4details": " Most facials use a machine that directs a thin vapor of warm steam to your face. This is relaxing and helps softens up any blackheads and whiteheads to be extracted. If you have very sensitive skin, the esthetician may not use steam. Exfoliation using a mechanical or chemical exfoliant. Mechanical exfoliants have a gritty texture that rubs away the surface dead skin cells. This type of exfoliation usually happens during the steam. Chemical exfoliation uses enzymes and acids to loosen the bond between skin cells. A gentle enzyme treatment can be done during the steam. Stronger chemical peels, which vary in intensity, can be a stand-alone treatment or part of the facial. It is not generally an upgrade and done in a series. It is not done with steam.",
+            "step5details": " This is the removal of blackheads or whiteheads if you want it and need it. People have different pain tolerance for extractions. They can be uncomfortable, especially on thin or ruddy skin. Extractions can cause broken capillaries and discoloration if done improperly. Watch a video of extractions being performed. Facial massage using classic strokes like effleurage to both relax you and stimulate your skin and facial muscles. Facial mask targeted to your skin type (dry, oily, combination, sensitive, mature) and condition. During the facial, the esthetician should stay in the room and give you a scalp massage or some other service. If they leave the room to let you relax, don't go back."
         },
         {
             "imagePath": "images/6.jpg",
-            "productDescription": "some details of 6 pic"
+            "productDescription": "some details of 6 pic",
+            "title": "Try"
         },
         {
             "imagePath": "images/7.jpg",
@@ -35,21 +46,15 @@
         },
         {
             "imagePath": "images/8.jpg",
-            "productDescription": "Henna is a flowering plant. The leaves of the Henna plant contain a natural and very effective coloring pigment: Lawsone. This Orange/Red dye releases as the leaves are crushed. Drying, milling, and sifting the Henna leaves into a fine powder maximizes the pigment release"
-
-
+            "productDescription": "Mehndi is the ancient art of body decorating using a paste made of the the dried leaves of the henna plant.the paste temporarily stains  the skin an orange-brown color.using only all natural products,fresh high qualitymorocan henna powder,pure essensial oils lemon juice andmolasses,our skilled artists mix the paste,and fill bottles.witch are used to apply the paste to the skin in delicateor bodly sensual patterns,We provide a complete Mehndi experience,preparing the skin,custom designs,andafter-care to insure a beautiful result"
         },
-              {
+        {
             "imagePath": "images/9.jpg",
             "productDescription": "Henna is a flowering plant. The leaves of the Henna plant contain a natural and very effective coloring pigment: Lawsone. This Orange/Red dye releases as the leaves are crushed. Drying, milling, and sifting the Henna leaves into a fine powder maximizes the pigment release"
-
-
         },
-              {
+        {
             "imagePath": "images/10.jpg",
             "productDescription": "Henna is a flowering plant. The leaves of the Henna plant contain a natural and very effective coloring pigment: Lawsone. This Orange/Red dye releases as the leaves are crushed. Drying, milling, and sifting the Henna leaves into a fine powder maximizes the pigment release"
-
-
         }
     ]
 }
