@@ -1,19 +1,13 @@
 <!-- ================Carousel start ======Main Page ===Banner=====-->
-<div class="row serviceBannerCarousel"></div>
+<div class="serviceBannerCarousel">
 <carousel interval="myInterval" ng-hide="servicePageBannerCarousel">
          <slide ng-repeat="slide in slides0" active="slide.active">
         <img ng-src="{{slide.image}}">
-
            <div class="carousel-caption">
-
-
            </div>
          </slide>
        </carousel>
-
-
-
-
+</div>
   <div class="row serviceMainDiv" ng-hide="servicepicdetails">
 
   <!-- ==========Service ======Henna Gallery ======== -->
@@ -35,14 +29,7 @@
         </div>
 
         <div class="col-sm-8 serviceContent">
-          <p>
-            Mehndi is the ancient art of body decorating using a paste made of the the dried leaves of the henna plant.
-            the paste temporarily stains  the skin an orange-brown color.using only all natural products,fresh high quality
-            morocan henna powder,pure essensial oils (including eucalyptus,cajeput,laender,tea tree),lemon juice and
-            molasses,our skilled artists mix the paste,and fill bottles.witch are used to apply the paste to the skin in delicate
-            or bodly sensual patterns,We provide a complete Mehndi experience,preparing the skin,custom designs,and
-            after-care to insure a beautiful result.<br/>   <br/>
-          </p>
+          <p>{{abtHennaServicePage}}<br/>  <br/></p>
 
         </div>
 
@@ -51,8 +38,6 @@
   <!-- ======End Of====Service ======Henna Gallery =======End Of======= -->
 
   <!-- ==========================Service Page Facial Gallery=============================-->
-
-
   <div class="col-md-4 galleryHolder1" align="center">
      <h4><strong>Facial </strong></h4>
         <!-- normal -->
@@ -65,54 +50,30 @@
               <p>$35 </p>
                <p>(click here for more details)</p>
             </div>
-          </div></a></div>
+          </div></a></div><br/><br/>
       <!-- end normal -->
   </div>
 
   <div class="col-sm-8 serviceContent ">
-  <p>
-        Mehndi is the ancient art of body decorating using a paste made of the the dried leaves of the henna plant.
-        the paste temporarily stains  the skin an orange-brown color.using only all natural products,fresh high quality
-         morocan henna powder,pure essensial oils (including eucalyptus,cajeput,laender,tea tree),lemon juice and
-          molasses,our skilled artists mix the paste,and fill bottles.witch are used to apply the paste to the skin in delicate
-          or bodly sensual patterns,We provide a complete Mehndi experience,preparing the skin,custom designs,and
-          after-care to insure a beautiful result.
-          <br/>   <br/>
+  <p>{{abtFacialServicePage}}<br/><br/>
   <button class="btn btn-success " ng-click="makeAppointment()">Make Appointment </button>
   </p>
 
   </div>
 
-
-
-
-
-
   <!-- =============Facial Gallery End=======================End Facial Gallery===================-->
-
     <br/>
-
 <img src="images/beautifulyou.jpg" class="hvr-wobble-vertical">
 <!-- =========Scroll Down Arrow ====== -->
         <ul  id="bouncearr" >
            <li><a href="" ><i class="glyphicon glyphicon-chevron-down"></i></a></li>
-
 </ul>
-
-
   <section class="module parallax parallax-service img-responsive">
     <div class="container-fluid">
 
     </div>
   </section>
-
-
-
-
   <!-- ============================Waxing Gallery Service Page===========================-->
-
-
-
   <div class="col-md-4 galleryHolder2" align="center">
  <h3>Waxing</h3>
         <!-- normal -->
@@ -127,43 +88,17 @@
             </div>
           </div></a></div>
       <!-- end normal -->
-
-
   </div>
-
-
-
-  <div class="col-sm-6 serviceContent">
-  <p>
-        Mehndi is the ancient art of body decorating using a paste made of the the dried leaves of the henna plant.
-        the paste temporarily stains  the skin an orange-brown color.using only all natural products,fresh high quality
-         morocan henna powder,pure essensial oils (including eucalyptus,cajeput,laender,tea tree),lemon juice and
-          molasses,our skilled artists mix the paste,and fill bottles.witch are used to apply the paste to the skin in delicate
-          or bodly sensual patterns,We provide a complete Mehndi experience,preparing the skin,custom designs,and
-          after-care to insure a beautiful result.
-          <br/>
-  </p>
-
+  <div class="col-sm-8 serviceContent">
+ <p>{{abtHennaServicePage}}<br/>  <br/></p>
   </div>
-
-
-
-
   <!-- ===========================End Of Waxing gallery Service Page============================-->
-
-
     <br/>
-
-
-
-
-
-
   <!-- =========================Threading Gallery==============================-->
+  <div class="row col-sm-12">
 
 
-
-  <div class="col-md-4 galleryHolder3" align="center">
+  <div class="col-sm-4 galleryHolder3" align="center">
  <h3>Threading</h3>
         <!-- normal -->
       <div class="ih-item circle effect1" ng-click="eyebrowphotos()"><a >
@@ -178,50 +113,21 @@
           </div></a>
         </div>
       <!-- end normal -->
-  </div>
+  </div><br/><br/>  <br/>
+<div class="col-sm-8 serviceContent">
 
+       <p>{{abtHennaServicePage}}</p>
 
-
-
-
-  <div class="col-sm-6 serviceContent">
-  <p>
-        Mehndi is the ancient art of body decorating using a paste made of the the dried leaves of the henna plant.
-        the paste temporarily stains  the skin an orange-brown color.using only all natural products,fresh high quality
-         morocan henna powder,pure essensial oils (including eucalyptus,cajeput,laender,tea tree),lemon juice and
-          molasses,our skilled artists mix the paste,and fill bottles.witch are used to apply the paste to the skin in delicate
-          or bodly sensual patterns,We provide a complete Mehndi experience,preparing the skin,custom designs,and
-          after-care to insure a beautiful result.
-          <br/>
   <button class="btn btn-success " ng-click="makeAppointment()">Make Appointment </button>
-  </p>
-
+  <br/><br/>  <br/>
   </div>
-
-
-
-
-  <!-- ===========================End Of Threading gallery============================-->
-
-
-
-
-
-     <img src="images/bannerMainPage1.jpg" class="hvr-grow">
-
-</div>
-
-
     </div>
+  <!-- ===========================End Of Threading gallery============================-->
+     <img src="images/bannerMainPage1.jpg" class="hvr-grow">
+</div>
+    </div>
+
 <!-- =========================Main Div Of Service Page End==============================-->
-
-
-
-
-
-
-
-
 
   <div class="col3  "  ng-hide="hennagallery" >
     <div id="gallery">
@@ -236,29 +142,10 @@
     </div>
     <div class="buttonHolder">
   <button class="btn btn-danger  " ng-click="backToPricePage()">Back</button>
-
   <button class="btn btn-success " ng-click="makeAppointment()">Make Appointment </button>
-
   </div>
   <br/>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -275,21 +162,10 @@
     </div>
     <div class="buttonHolder">
   <button class="btn btn-danger  " ng-click="backToPricePage()">Back</button>
-
   <button class="btn btn-success " ng-click="makeAppointment()">Make Appointment </button>
-
   </div>
   <br/>
   </div>
-
-
-
-
-
-
-
-
-
 
 
 
@@ -306,19 +182,11 @@
     </div>
     <div class="buttonHolder">
   <button class="btn btn-danger  " ng-click="backToPricePage()">Back</button>
-
   <button class="btn btn-success " ng-click="makeAppointment()">Make Appointment </button>
 
   </div>
   <br/>
   </div>
-
-
-
-
-
-
-
 
 
 
@@ -335,32 +203,20 @@
     </div>
     <div class="buttonHolder">
   <button class="btn btn-danger  " ng-click="backToPricePage()">Back</button>
-
   <button class="btn btn-success " ng-click="makeAppointment()">Make Appointment </button>
-
   </div>
   <br/>
   </div>
-
-
-
-
 <!--==========START======= schedule & Appointment Section==========START====== -->
-
   <div class="row aaa" >
   <div class="col-md-3"></div>
   <div  ng-show="scheduleDay" class="col-md-6">
-
         <timepicker ng-model="mytime" ng-change="changed()" hour-step="hstep" minute-step="mstep" show-meridian="ismeridian"></timepicker>
-
-
         <div style="display:inline-block; min-height:290px;">
         <datepicker ng-model="dt" min-date="minDate" show-weeks="true" class="well well-sm" custom-class="getDayClass(date, mode)"></datepicker>
       </div>
 
       <div class="servicelist">
-
-
               <accordion-group is-open="status.open">
               <div class="serviceHolderDiv">
           <accordion-heading>
@@ -373,26 +229,11 @@
                 <input name="checkboxes"  type="checkbox" ng-model="service.checked">
                 {{service.text}}
               </label>
-
-
-
-
-
-
               </div>
                </div>
   </div>
-
-
   </accordion-group>
-
   <pre>Your schedule is on :  {{mytime | date:'shortTime' }} <em>{{dt | date:'fullDate' }}</em></pre>
-
-
-
-
-
-
 
     <div class="col-xs-6">
                       <input type="text" class="form-control" id="firstName" name="name" placeholder="Your Name">
@@ -401,9 +242,6 @@
          <div class="col-xs-6">
                       <input type="text" class="form-control" name="phone" placeholder="Phone">
                   </div>
-
-
-
 
          <div class="control-group">
   <br/><br/><br/>

@@ -3,7 +3,6 @@
    angular.module('dhagaThreadingApp' )
    .controller('servicesCtrl', function ($scope,DhagaService) {
 
-
 $scope.servicePageBannerCarousel=false;
       $scope.maincontentdiv=false;
         $scope.servicepicdetails=false;
@@ -305,6 +304,18 @@ $scope.servicePageBannerCarousel=false;
         });
 
 
+   DhagaService.getdat().then(function(response){
+        $scope.jdata=response.data;
+
+
+ $scope.ind=0;
+ $scope.abtHennaServicePage=$scope.jdata.allProducts[$scope.ind+7].productDescription;
+  $scope.abtFacialServicePage=$scope.jdata.allProducts[$scope.ind+2].productDescription;
+  $scope.abtwaxingServicePage=$scope.jdata.allProducts[$scope.ind+3].productDescription;
+
+
+
+   });
 
 
 

@@ -8,9 +8,15 @@
  * Controller of the dhagaThreadingApp
  */
 angular.module('dhagaThreadingApp')
-  .controller('AboutCtrl', function ($scope) {
+  .controller('aboutCtrl', function ($scope,DhagaService) {
 
 
+   DhagaService.getdat().then(function(response){
+    $scope.jdata=response.data;
+ $scope.ind=0;
+ $scope.abtUsAboutUsPage=$scope.jdata.allProducts[$scope.ind].productDescription;
+
+   });
 
 
 
