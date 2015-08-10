@@ -170,7 +170,7 @@ form .txt:focus, form .txtarea:focus {
   box-shadow: 0 1px 4px -1px #a8a8a8 inset, 0 1px rgba(255, 255, 255, 0.6), 0 0 11px rgba(70, 100, 200, 0.7);
 }
 form .txtarea:focus {
-  width: 375px;
+  width: 60%;
   background-position: 110% 4%;
 }
 

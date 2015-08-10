@@ -4,7 +4,7 @@
             stroke: #777;
             shape-rendering: crispEdges;
         }
-        
+
         .axis text
         {
             font-family: 'Arial';
@@ -18,5 +18,14 @@
         {
             fill: FireBrick;
         }
-        
-       
+
+       .historyBanner{
+        margin-top: -20px;
+       }
+       .historyBackBtn{
+       height:70px !important;
+  width:70px !important;
+  border-radius: 50% !important;
+  margin-top:90%;
+  margin-left: 40%;
+       }

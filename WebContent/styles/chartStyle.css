@@ -10,19 +10,21 @@ body ul, body li {
 }
 */
 .chart {
-  max-height: 400px;
+  max-height: 500px;
   border-bottom: 1px solid #eee;
-  padding: 1em;
+  padding: 5em;
 }
 
 .chart--headline, .chart--subHeadline {
   text-align: center;
+
 }
 
 .chart--headline {
   position: relative;
   font-weight: 100;
   font-size: 28px;
+
 }
 
 .chart--headline:before {
@@ -33,25 +35,34 @@ body ul, body li {
   width: 25%;
   margin: 0 0 0 -12.5%;
   border-top: 1px dashed adjust-lightness(#333, 40);
+
 }
 
 .chart--subHeadline {
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 1px;
+
 }
 
 .charts--container {
   background-color: #fff;
   width: 100%;
+border-radius: 25px;
 }
 
+.chartDiv{
+    background-color: #4b5e59;
+    margin-top: -20px;
+
+}
 @media screen and (min-width: 700px) {
   .charts--container {
     max-width: 700px;
     left: 50%;
     top: 10%;
-    margin: 5em auto;
+margin-left: 22%;
+margin-top: 4%;
     box-shadow: 0 2em 2em #333;
   }
 }
@@ -61,6 +72,7 @@ body ul, body li {
   color: #444;
   background-color: #fff;
   padding: 1em;
+
 }
 
 .lineChart--area {
@@ -146,22 +158,25 @@ body ul, body li {
 }
 
 .pieChart--detail--percentage {
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 100;
   fill: #333;
   stroke-width: 1px;
+
 }
 
 .pieChart--detail--textContainer {
+  height: 300px ! important;
   background-color: transparent;
-  padding: 10px 0 0 0;
-  margin: 0;
-  color: #666;
+  padding: 20px 10px  20px  10px ;
+  color: red;
   font-style: italic;
+  text-indent: 50px;
 }
 
 .pieChart--detail__left {
   text-align: left;
+
 }
 
 .pieChart--detail__right {
@@ -189,4 +204,10 @@ body ul, body li {
  */
 .hidden {
   display: none;
+}
+
+.Mybtn{
+  height:70px !important;
+  width:70px !important;
+  border-radius: 50% !important;
 }

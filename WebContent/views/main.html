@@ -85,7 +85,7 @@
           <span class="loginspan hvr-pop"></span>
           <h1 class="loginh1" >Member Login</h1>
           <form>
-            <input placeholder='User Name' type='text' class="loginInput hvr-pop" ng-model="user"> 
+            <input placeholder='User Name' type='text' class="loginInput hvr-pop" ng-model="user">
             <input placeholder='Password' type='password' class="loginInput hvr-pop">
           </form>
           <button class="loginBtn hvr-buzz" ng-click="open()">LOGIN </button>
@@ -104,12 +104,12 @@
      <!--  modal for log in form  -->
 
   <script type="text/ng-template" id="myModalContent.html" >
-      
+
         <div class="modal-header" >
             <h3 class="modal-title"> Welcome Back {{user}}!</h3>
         </div>
         <div class="modal-body">
-            <ul> 
+            <ul>
                     <table class="table" >
                      <caption> Your History Purchased</caption>
                      <thead>
@@ -125,20 +125,20 @@
                            <td>  {{data.service}}</td>
                            <td> {{data.total}} </td>
                         </tr>
-                        
+
                      </tbody>
                      </table>
 
 
 
             </ul>
-            
+
         <h3>  Make Appointment Now ! You will get 10% off   </h3>
 
         </div>
 
         <div class="modal-footer">
-           
+
             <button class="btn btn-warning" type="button" ng-click="cancel()">Ok</button>
 
         </div>

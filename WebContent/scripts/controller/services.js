@@ -227,10 +227,12 @@ $scope.servicePageBannerCarousel=false;
 
   $scope.services = [
 
-    {price: 10, text: 'Eyebrow ', checked: false},
-    {price: 20, text: 'Facial',checked : false},
-    {price: 30, text: 'Small Henna',checked:false},
-    {price: 40, text: 'Full Leg Waxing', checked:false}
+    {price: 7, text: 'Eyebrow Threading', checked: false},
+     {price: 25, text: 'Full Face Threading ', checked: false},
+    {price: 35, text: 'Full Facial',checked : false},
+     {price: 15, text: 'Mini Facial ', checked: false},
+    {price: 5, text: 'Small Henna',checked:false},
+    {price: 40, text: 'Full Leg Waxing', checked:false},
   ];
 
 
