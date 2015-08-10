@@ -206,10 +206,10 @@
       </div>
 <!--==========START======= schedule & Appointment Section==========START====== -->
 
-<div class="row  " ng-show="scheduleDay">
-      <div class="col-sm-3"  >
+<div class="row SelectDate " ng-show="scheduleDay">
+      <div class="col-sm-3 "  >
         <h3>Select Time & Date</h3>
-              <div  class="col-md-6">
+              <div  align="center">
                     <timepicker ng-model="mytime" ng-change="changed()" hour-step="hstep" minute-step="mstep" show-meridian="ismeridian"></timepicker>
                         <div style="display:inline-block; min-height:290px;">
                         <datepicker ng-model="dt" min-date="minDate" show-weeks="true" class="well well-sm" custom-class="getDayClass(date, mode)"></datepicker>
@@ -217,37 +217,23 @@
               </div>
       </div>
 
-      <div class=" col-sm-4" >
-         <h3>Personal Info</h3>
-          <label>First Name </label><input type="text" class="form-control" id="firstName" name="name" placeholder="First Name">
-          <label>Last Name </label><input type="text" class="form-control" id="firstName" name="name" placeholder="Last Name">
-          <label>Phone No </label><input type="text" class="form-control" name="phone" placeholder="Phone">
-
-<!--
-       <label class="" for="selectbasic">How many person ?</label>
-                <div class="controls">
-                <select id="selectbasic" name="selectbasic" class="input-large">
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                      <option>6</option>
-                </select>
-          </div>
--->
-<!--=======credit card HTML =====Start===== -->
-<!-- <div>
-  <input type="text" ng-model="myccno" placeholder="Credit Card Number" class="input-lg"/>
-  <span>{{ myccno | validate }}</span>
-</div>-->
-<!--====END===credit card HTML =====END===== -->
+      <div class=" col-sm-5 " >
+            <form>
+                <h3 style="color:black">Personal Info</h3>
+                <div class="">
+                      <label for="name" style="color:black">Your Name <span class="req">*</span></label>
+                      <input type="text" name="Your Entered Name" id="name" class="txt" tabindex="1" placeholder="Your Full Name" required><br/><br/>
+                      <label for="name" style="color:black">Contact No<span class="req">*</span></label>
+                      <input type="text" name="Your Entered Name" id="name" class="txt" tabindex="1" placeholder="Contact Number" required><br/><br/>
+                      <label for="name" style="color:black">Card No<span class="req">*</span></label>
+                      <input type="text" ng-model="myccno" placeholder="Credit Card Number" class="input-lg" maxlength="16" />
+                      <span>{{ myccno | validate }}</span>
+                </div>
+            </form>
       </div>
 
 
-
-
-      <div class="col-sm-5" >
+      <div class="col-sm-3 " >
           <h3>Select Services</h3>
             <accordion-group is-open="status.open">
                     <div class="serviceHolderDiv">
@@ -265,13 +251,11 @@
                            </div>
                   </div>
           </accordion-group>
-
-
       </div>
 
       <div class="row col-sm-12"  >
             <div class="col-sm-5">
-                  <pre>Your schedule is on :  {{mytime | date:'shortTime' }} <em>{{dt | date:'fullDate' }}</em></pre>
+                  <pre><h4>Your schedule is on :  {{mytime | date:'shortTime' }} <em>{{dt | date:'fullDate' }}</em></h4></pre>
             </div>
             <div class="col-sm-4">
                   <h3> Estimate Total :  ${{checkedCount()}} </h3>
@@ -280,16 +264,22 @@
                    <button class="btn btn-success btn-lg " ng-click="confirm()" > Confirm your order!  </button>
             </div>
       </div>
-
-
-
-
-
+<div class="progress">
+  <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+    60%
+  </div>
+</div>
 </div>
 
 <div class="row conformation">
-        <div ng-show="placeorder" class="col-md-12"> <h3 style="color:red">Thank you for your order !</h3>
-        <button class="btn btn-success btn-lg " ng-click="confirm2()"> Click here to go back to main page </button>
+     <br/>   <br/>   <br/>   <br/>   <br/>   <br/>   <br/>
+        <div ng-show="placeorder" class="col-md-12"> <h3 style="color:green">Thank you for your order !</h3>
+
+        <button class="btn btn-danger btn-lg myBtn " ng-click="confirm2()"> <span class="glyphicon glyphicon-eject"></span></button>
+        <br/>   <br/>   <br/>   <br/>   <br/>   <br/>   <br/>   <br/>   <br/>   <br/>   <br/>
+         <img src="images/review-banner4.psd">
+          <br/>
+
         </div>
 
   </div>

@@ -303,11 +303,10 @@ $scope.servicePageBannerCarousel=false;
       });
 
 
-/*==============START=========== copied code for credict cared=============== */
+/*==============START=========== copied code for credict cared===============*/
 
-angular.module('myApp', ['filters']);
-angular.module('filters', []).
-filter('validate', [function () {
+// angular.module('myApp', ['filters']);
+angular.module('dhagaThreadingApp').filter('validate', [function () {
     return function (ccnumber) {
       if (!ccnumber) { return ''; }
       ccnumber = ccnumber.toString().replace(/\s+/g, '');
@@ -363,7 +362,7 @@ filter('validate', [function () {
       if (/^(4026)|^(417500)|^(4405)|^(4508)|^(4844)|^(4913)|^(4917)/.test(ccnumber)) {
         cardType = "Visa Electron"
       }
-      return ccnumber + " is a(n) " + cardType + "  Card" ;
+      return  cardType + "  Card" ;
     };
 }]);
 
