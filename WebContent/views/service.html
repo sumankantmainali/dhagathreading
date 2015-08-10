@@ -222,6 +222,8 @@
           <label>First Name </label><input type="text" class="form-control" id="firstName" name="name" placeholder="First Name">
           <label>Last Name </label><input type="text" class="form-control" id="firstName" name="name" placeholder="Last Name">
           <label>Phone No </label><input type="text" class="form-control" name="phone" placeholder="Phone">
+
+<!--
        <label class="" for="selectbasic">How many person ?</label>
                 <div class="controls">
                 <select id="selectbasic" name="selectbasic" class="input-large">
@@ -233,9 +235,13 @@
                       <option>6</option>
                 </select>
           </div>
-
-
-
+-->
+<!--=======credit card HTML =====Start===== -->
+<!-- <div>
+  <input type="text" ng-model="myccno" placeholder="Credit Card Number" class="input-lg"/>
+  <span>{{ myccno | validate }}</span>
+</div>-->
+<!--====END===credit card HTML =====END===== -->
       </div>
 
 
@@ -285,87 +291,5 @@
         <div ng-show="placeorder" class="col-md-12"> <h3 style="color:red">Thank you for your order !</h3>
         <button class="btn btn-success btn-lg " ng-click="confirm2()"> Click here to go back to main page </button>
         </div>
-  </div>
-<!--
-  <div class="row aaa" >
-  <div class="col-md-3"></div>
-  <div  ng-show="scheduleDay" class="col-md-6">
-        <timepicker ng-model="mytime" ng-change="changed()" hour-step="hstep" minute-step="mstep" show-meridian="ismeridian"></timepicker>
-        <div style="display:inline-block; min-height:290px;">
-        <datepicker ng-model="dt" min-date="minDate" show-weeks="true" class="well well-sm" custom-class="getDayClass(date, mode)"></datepicker>
-      </div>
-
-      <div class="servicelist">
-              <accordion-group is-open="status.open">
-              <div class="serviceHolderDiv">
-          <accordion-heading>
-               Service  ! <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
-          </accordion-heading>
-          <div class="control-group">
-            <label class="control-label" for="checkboxes">Choose your service </label>
-            <div class="controls">
-              <label class="checkbox"  ng-repeat="service in services">
-                <input name="checkboxes"  type="checkbox" ng-model="service.checked">
-                {{service.text}}
-              </label>
-              </div>
-               </div>
-  </div>
-  </accordion-group>
-
-
-  <pre>Your schedule is on :  {{mytime | date:'shortTime' }} <em>{{dt | date:'fullDate' }}</em></pre>
-
-
-
-    <div class="col-xs-6">
-                      <input type="text" class="form-control" id="firstName" name="name" placeholder="Your Name">
-         </div>
-
-         <div class="col-xs-6">
-                      <input type="text" class="form-control" name="phone" placeholder="Phone">
-                  </div>
-
-         <div class="control-group">
-  <br/><br/><br/>
-    <label class="control-label" for="selectbasic">How many person ?</label>
-    <div class="controls">
-      <select id="selectbasic" name="selectbasic" class="input-large">
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-        <option>6</option>
-      </select>
-    </div>
-  </div>
-
-        <h3 style="color:red"> Estimate Total :  ${{checkedCount()}} </h3>
-
-
-      </div>
-    </br>  </br>  </br><br/><br/>
-
-
-
-        <button class="btn btn-success btn-lg " ng-click="confirm()"> Confirm your order!  </button>
-
-
-
 
   </div>
-
-  <div class="row conformation">
-
-
-  <div ng-show="placeorder" class="col-md-12"> <h3 style="color:red">Thank you for your order !</h3>
-
-  <button class="btn btn-success btn-lg " ng-click="confirm2()"> Click here to go back to main page </button>
-  </div>
-  </div>
-  </div>
-
--->
-
-
