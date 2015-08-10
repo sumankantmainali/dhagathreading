@@ -9,7 +9,7 @@
  */
 
  angular.module('dhagaThreadingApp' )
- .controller('MainCtrl', function ($scope,DhagaService) {
+ .controller('MainCtrl', function ($scope,DhagaService,$modal,$log,userService) {
 
  $scope.ind=0;
 $scope.contactdiv=true;
@@ -81,6 +81,118 @@ $scope.ind--;
     };
 
 */
+       
+
+
+
+
+  $scope.animationsEnabled = true;
+
+  $scope.open = function (size) {
+
+        userService.userID = $scope.user;
+       
+
+    var modalInstance = $modal.open({
+      animation: $scope.animationsEnabled,
+      templateUrl: 'myModalContent.html',
+      controller: 'ModalInstanceCtrl',
+      size: size,
+      resolve: {
+        items: function () {
+          return $scope.items;
+        }
+      }
+    });
+
+    modalInstance.result.then(function (selectedItem) {
+      $scope.selected = selectedItem;
+    }, function () {
+      $log.info('Modal dismissed at: ' + new Date());
+    });
+  };
+
+  
+
+  
+
+
+
+
+
+});
+
+angular.module('dhagaThreadingApp').controller('ModalInstanceCtrl', function ($scope, $modalInstance, items,userService) {
+
+    $scope.user=userService.userID;
+
+    $scope.datas = [];
+
+     // $scope.userData = [{name: "user1", date: "june 23 ,2015", service:"eyebrow , facial", total : "20$" }];
+
+
+     if ($scope.user === "test1"){
+
+        $scope.datas.push({ date: "January 23 ,2015", service:"Eyebrow , Facial", total : "20$" } ,
+
+            { date: "April 20 ,2015", service:"Wax", total : "15$" } ,
+            { date: "May 22 ,2015", service:"Henna , Eyebrow", total : "35$" } 
+
+
+
+            );
+
+
+
+     }else if ($scope.user ==="test2"){
+
+
+        $scope.datas.push({ date: "May 23 ,2015", service:" Henna", total : "10$" },
+                        { date: "June 1 ,2015", service:" Wax", total : "10$" } ,
+                        { date: "July 15 ,2015", service:"Eyebrow", total : "15$" } ,
+                        { date: "August 2 ,2015", service:"EyeBrow", total : "15$" } 
+
+            );
+
+
+
+     } 
+
+
+  $scope.cancel = function () {
+    $modalInstance.dismiss('cancel');
+  };
+});
+
+
+angular.module('dhagaThreadingApp').service('userService', function () {
+
+    this.userID="";
+
+  
+});
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         $(document).ready(function() {
              $('.go-top').fadeOut();
@@ -122,5 +234,7 @@ $scope.ind--;
 
 
 
-});
+
+
+
 

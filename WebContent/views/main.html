@@ -85,10 +85,10 @@
           <span class="loginspan hvr-pop"></span>
           <h1 class="loginh1" >Member Login</h1>
           <form>
-            <input placeholder='User Name' type='text' class="loginInput hvr-pop">
+            <input placeholder='User Name' type='text' class="loginInput hvr-pop" ng-model="user"> 
             <input placeholder='Password' type='password' class="loginInput hvr-pop">
           </form>
-          <button class="loginBtn hvr-buzz">LOGIN</button>
+          <button class="loginBtn hvr-buzz" ng-click="open()">LOGIN </button>
           <h2 class="loginh2">
             <a href='' class="logina">Forgot Password? </a>
           </h2>
@@ -100,6 +100,58 @@
   </div>
 </div>
 </section>
+
+     <!--  modal for log in form  -->
+
+  <script type="text/ng-template" id="myModalContent.html" >
+      
+        <div class="modal-header" >
+            <h3 class="modal-title"> Welcome Back {{user}}!</h3>
+        </div>
+        <div class="modal-body">
+            <ul> 
+                    <table class="table" >
+                     <caption> Your History Purchased</caption>
+                     <thead>
+                        <tr>
+                           <th>Date</th>
+                           <th>Service</th>
+                           <th>Total</th>
+                        </tr>
+                     </thead>
+                     <tbody >
+                        <tr ng-repeat="data in datas">
+                           <td> {{data.date}}</td>
+                           <td>  {{data.service}}</td>
+                           <td> {{data.total}} </td>
+                        </tr>
+                        
+                     </tbody>
+                     </table>
+
+
+
+            </ul>
+            
+        <h3>  Make Appointment Now ! You will get 10% off   </h3>
+
+        </div>
+
+        <div class="modal-footer">
+           
+            <button class="btn btn-warning" type="button" ng-click="cancel()">Ok</button>
+
+        </div>
+
+      </script>
+
+
+
+
+
+
+
+
 <section class="module parallax parallax-2 img-responsive">
   <div class="container-fluid">
   </div>
